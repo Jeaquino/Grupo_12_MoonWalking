@@ -11,5 +11,6 @@
 ## Sitios que nos insipiramos:
 1. https://www.montagne.com.ar : la estructura.
 2. https://www.opensports.com.ar : detalles en general.
-3. https://www.dexter.com.ar : detalles zapatillas.
+3. https://www.dexter.com.ar : detalles de las zapatillas.
 4. https://www.cristobalcolon.com : detalles del footer, y registro.
+5. https://www.mercadolibre.com.ar/#from=homecom : detalles de carrito.
