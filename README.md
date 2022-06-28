@@ -19,7 +19,7 @@
 1. https://www.figma.com/file/jzUspug2SKI09oeu3KZVwt/Carrito-cel?node-id=0%3A1
 2. https://www.figma.com/file/M26gKApgdZhZF48FtjIBCz/carrito-tablet?node-id=0%3A1
 3. https://www.figma.com/file/P3LkTAwucGtOk375IpOwfk/Carrito?node-id=0%3A1
-==Home:==
+##Home:
 1. https://www.figma.com/file/u98ng5GRFqfT9eOz647XXV/Tablet%2FHome?node-id=1%3A2
 2. https://www.figma.com/file/RThWpyoEfW3aJSq2mZM9kH/Celular%2FHome?node-id=1%3A2
 3. https://www.figma.com/file/lzGJmUutKs3lbsyjkJbS2R/Escritorio%2FHome?node-id=4%3A4
