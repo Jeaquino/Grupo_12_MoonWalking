@@ -15,19 +15,19 @@
 5. https://www.mercadolibre.com.ar/#from=homecom : detalles de carrito.
 
 ## Links de Figma
-###Carrito:
+ºCarrito:
 1. https://www.figma.com/file/jzUspug2SKI09oeu3KZVwt/Carrito-cel?node-id=0%3A1
 2. https://www.figma.com/file/M26gKApgdZhZF48FtjIBCz/carrito-tablet?node-id=0%3A1
 3. https://www.figma.com/file/P3LkTAwucGtOk375IpOwfk/Carrito?node-id=0%3A1
-###Home:
+ºHome:
 1. https://www.figma.com/file/u98ng5GRFqfT9eOz647XXV/Tablet%2FHome?node-id=1%3A2
 2. https://www.figma.com/file/RThWpyoEfW3aJSq2mZM9kH/Celular%2FHome?node-id=1%3A2
 3. https://www.figma.com/file/lzGJmUutKs3lbsyjkJbS2R/Escritorio%2FHome?node-id=4%3A4
-###Login:
+ºLogin:
 1. https://www.figma.com/file/nidtGEbmAZn15Is2AlEwy1/Login%2FComputadora?node-id=0%3A1
 2. https://www.figma.com/file/0ccdPBRNmAQ3OpmFBpEgLi/Login%2FTablet?node-id=1%3A2
 3. https://www.figma.com/file/oCu4qPoGE2qg8KJiJJPXlD/Login%2FCelular?node-id=1%3A2
-###Detalle del producto:
+ºDetalle del producto:
 1. https://www.figma.com/file/W7dNYpo36lXbN4NzGSBJW8/Detalle?node-id=0%3A1
 2. https://www.figma.com/file/PpNoaAiLXlv90hJgoN1uXt/Detalle---tablet?node-id=0%3A1
 3. https://www.figma.com/file/c419jQCxTgUymFBix2JYO3/Detalle-celular?node-id=0%3A1
