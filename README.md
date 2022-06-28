@@ -5,8 +5,7 @@
 ## Intregrantes:
 1. Lújan Gutiérrez: 24 años, CABA.
 2. Ramiro Quiroga: 21 años, San Miguel (Buenos Aires).
-3. Tamara Vivanco: 22, Junín de los Andes (Neuquén).
-4. Antonella Pizarro: 19 años, San Miguel (Buenos Aires).
+3. Antonella Pizarro: 19 años, San Miguel (Buenos Aires).
 
 ## Sitios que nos inspiramos:
 1. https://www.montagne.com.ar : la estructura.
