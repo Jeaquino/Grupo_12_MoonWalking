@@ -1,6 +1,6 @@
 # Grupo_12_MoonWalking
 
-# El e-commerce será sobre zapatillas multimarca y diversos estilos, direccionado a un público adulto.
+# Somos un pequeño equipo de desarrolladores que armaremos una página web destinada a la venta de zapatillas multimarca con diversos estilos, direccionado a un público adulto.
 
 ## Intregrantes:
 1. Lújan Gutiérrez: 24 años, CABA.
