@@ -3,7 +3,7 @@
 # Somos un pequeño equipo de desarrolladores que armaremos una página web destinada a la venta de zapatillas multimarca con diversos estilos, direccionado a un público adulto.
 
 ## Intregrantes:
-1. Lújan Gutiérrez: 24 años, CABA.
+1. Luján Gutiérrez: 24 años, Lanús Oeste (Buenos Aires).
 2. Ramiro Quiroga: 21 años, San Miguel (Buenos Aires).
 3. Antonella Pizarro: 19 años, San Miguel (Buenos Aires).
 
@@ -34,3 +34,8 @@ Detalle del producto:
 1. https://www.figma.com/file/W7dNYpo36lXbN4NzGSBJW8/Detalle?node-id=0%3A1
 2. https://www.figma.com/file/PpNoaAiLXlv90hJgoN1uXt/Detalle---tablet?node-id=0%3A1
 3. https://www.figma.com/file/c419jQCxTgUymFBix2JYO3/Detalle-celular?node-id=0%3A1
+
+Registro:
+1. https://www.figma.com/file/XivJx1Nk8Qz6sWGevofTQH/Registro1?node-id=1%3A2
+2. https://www.figma.com/file/lj45ENALeZArJCVYmWKlDe/Registro3?node-id=0%3A1
+3. https://www.figma.com/file/KJMuxAaJAlRr9oSGmnsOT7/Registro2?node-id=0%3A1
