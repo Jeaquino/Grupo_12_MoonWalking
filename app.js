@@ -12,10 +12,8 @@ app.listen(port, () => console.log('Server running in http://localhost:' + port)
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', '.html')))
 // REGISTRO
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', '.html')))
-
-app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', '.html')))
 // DETALLE
-app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', '.html')))
+app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', 'detalle.html')))
 //LOGIN
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', '.html')))
 //CARRITO
