@@ -17,4 +17,4 @@
 
 5. Dejar de hacer.
 
-<img src="./retrospectiva/retrospectiva.jpg" alt="" width="200px">
+<img src="/public/img/retrospectiva.jpg" alt="" width="200px">
