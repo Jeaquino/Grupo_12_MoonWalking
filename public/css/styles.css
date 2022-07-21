@@ -1,1 +1,2 @@
-@import "/public/css/general.css"
+@import "./general.css";
+@import './register.css';
