@@ -1,23 +1,124 @@
+/* Header  */
 .encabezado{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: center; 
-    align-items: center;
-   justify-content: space-around;  
-   background-color: var(--colorGrisClaro);
-}
-.barraenvios{
-    background-color: var();
-}
-.fa-bars{
+    background-color: var(--colorGrisOscuro);
+ }
+
+.burger{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    width: 0%;
+    padding: 6px;
+    
+}
+.logo_burguer{
+    display: flex;
+    /* gap: 10px; */
+    text-shadow: 2px 2px 5px  black;
+    
+}
+.carrito{
+    text-align: center;
+    padding-right: 6px;
+    padding-top: 6px;
+}
+.carrito img{
+   border-radius: 50%;
+}
+hr{
+    width: 30px;
+    height: 1px;
+    margin-bottom: 2px;
+    background-color:  black;
+    border: none;
+     }
+
+.barraenvios{
+    background-color: var(--colorGrisCasiBlanco);
+}
+
+.Logo{
+    height: 80px;
+}
+/* .Buscador{
+    display: flex;
+    align-items: center;
+
+} */
+/* .Buscador button{
+    text-align: start;
+    width: 8%;
+    border: none;
+    background-color: #FFF;
+    color: var(--colorGrisOscuro);
+    transform: rotate(-267deg);
+} */
+/* .form_buscador{
+    display: flex;
     flex-wrap: wrap;
-     /* margin-left: 45%;
-     display: inline-block; 
-    padding: 5px 8px;  
-    border-radius: 10%;
-    margin-bottom: 5px; */
-} 
+    justify-content: center;
+    border: none;
+    width: 100%;
+    background-color: #FFF;
+    margin: 5px;
+    height: 25px;
+} */
+/* .Buscador input{
+    border: none;
+    text-align: center;
+    width: 85%;
+    outline: none;
+    background-color: #FFF;
+    
+} */
+
+
+/* Main */
+.flechas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 75px;
+}
+.Flecha1_1er_carrucel{
+    flex-wrap: wrap;
+    display:inline-block;
+    justify-content:flex-start;
+    
+}
+.Flecha2_1er_carrucel{
+    flex-wrap: wrap;
+    display: inline-block;
+    justify-content: flex-end;
+}
+h6{
+    margin: 4px;
+}
+section p{
+    font-family: inter;
+}
+section img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 6px gray;
+}
+.imagenes_zapatillas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flechas_2{
+    padding-top: 12%;
+}
+
+
+/* Tablet */
+@media (min-width: 768px){
+   
+}
+
+    
