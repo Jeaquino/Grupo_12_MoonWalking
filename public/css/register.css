@@ -1,8 +1,94 @@
-
-header{
-    background-color: var(--colorGrisClaro);
+hr{
+    height: 2px;
+    width: 100%;
+    opacity: 0.8;
+    background-color: var(--colorGrisOscuro);
+    box-shadow: 2px 2px 2px rgb(100, 100, 100) ;
+    border: none;
+}
+h1{
+    margin-bottom: 8px ;
+    margin-left: 10px;
 }
 h3{
     color: var(--colorRojo);
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+h4{
+    margin-bottom: 10px;
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+.form_register{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 12px;
+    resize: none;
+}
+.form_register--select{
+    margin-left: 5%;
+    width: 70%;
+    background-color: var(--colorGrisClaro);
+    color: #000;
+    box-shadow: 0px 2px 5px rgb(100, 100, 100) ;
+    border: none;
+}
+.form_register--select select{
+    border: none;  
+    background-color: var(--colorGrisClaro);
+}
+.form_register button{
+    font-size: medium;
+    color: white;
+    background-color: var(--colorGrisOscuro);
+    width: 50%;
+    height: 40px;
+    box-shadow: 0px 2px 5px rgb(100, 100, 100);
+    border: none;
+    border-radius: 8px;
+}
+.form_register--button{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 40px;
+    margin-top: 1%;
 }
 
+.form_register input{
+    margin-left: 5%;
+    width: 70%;
+    outline: none;
+    padding: 4px;
+    background-color: var(--colorGrisClaro);
+    border: none;
+    box-shadow: 0px 2px 5px rgb(100, 100, 100);
+}
+.form_input--number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 5%;
+}
+
+@media(min-width: 768px){
+    .form_register{
+        flex-direction: row;
+        margin-top: 2%;
+        gap: 20px;
+    }
+    .form_register input{
+        width: 40%;
+    }
+}
+@media(min-width: 1024px){
+
+}
