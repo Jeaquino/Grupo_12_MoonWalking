@@ -6,61 +6,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/cbbf860933.js" crossorigin="anonymous"></script>
     <title>Detalle</title>
 </head>
 
 <body>
     <header>
-        <div class="barraenvios">
-            <p>Envio gratis a todo el país - Cuotas sin interés</p>
-        </div>
-        <div>
-            <div class="burger">
-                <i class="fa-solid fa-bars"></i>
+        <div class="encabezado">
+            <div class="logo_burguer">
+                <div class="burger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
-            <img src="/design/Logo.jpg" alt="Logo" height="30">
-            <div class="barrabusqueda">
-                <form action=""><i class="fa-solid fa-magnifying-glass"></i></form>
+            <div class="logo">
+                <img class="Logo" src="/design/Logo.jpg" alt="logo" height="0">
             </div>
-            <div class="cartYuser">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <i class="fa-solid fa-user"></i>
+            <div class="carrito">
+                <img src="/img/carrito.jpg" alt="" height="30">
+                <hr>
+                <img src="/img/usuario luna blanca.jpg" alt="" height="30">
             </div>
         </div>
     </header>
     <main>
-        <p>Ruta del producto</p>
+        <p class="ruta">Ruta / del / producto</p>
         <section>
+            <hr>
             <article>
-                <img src="" alt="">
-                <p>Nombre Articulo</p>
-                <p>Detalle:</p>
-                <p>Precio</p>
-                <hr>
-                <p>Talles</p>
-                <p>Números de talles</p>
-                <button>Agregar al carrito</button>
+                <div class="sect1">
+                    <p class="nombreArt">Adidas Astir W</p>
+                    <p class="detalle">123A5</p>
+                    <p class="precio">$20.000</p>
+                    <img src="\img\adidasAstir.jpeg" alt="Unas zapatillas blancas con rosa, verde, violeta, celeste">
+                </div>
+                <div class="sect2">
+                    <div class="talles">
+                        <p>Talles : 35 - 36 - 37 - 38 - 39 - 40 - 41 - 42</p>
+                    </div>
+                    <button class="agregaCarrito" type="submit">Agregar al carrito</button>
+                </div>
             </article>
         </section>
         <section>
-            <p>Descripción</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore suscipit pariatur, soluta perspiciatis
-                deserunt, quae, sint ut dolorem iste iusto exercitationem iure rem totam cumque necessitatibus unde
-                nostrum animi asperiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore suscipit
-                pariatur, soluta perspiciatis
-                deserunt, quae, sint ut dolorem iste iusto exercitationem iure rem totam cumque necessitatibus unde
-                nostrum animi asperiores?</p>
-            <button><i class="fa-solid fa-angle-down"></i></button>
             <hr>
-            <p>Caracteristicas</p>
+            <ul class="descripcionpagoenvio">
+                <li> ◦Envío gratis</li>
+                <li> ◦Pagá hasta en 6 cuotas sin interés</li>
+            </ul>
+            <hr>
+            <p class="descripcion">Descripción</p>
+            <ul>
+                <li>Material: Malla</li>
+                <li>Beneficios: Amor tiguación</li>
+                <li>Composición: Capellada: malla / Suela: caucho</li>
+                <li>Caña: Baja</li>
+                <li>Importante: Los talles corresponden a numeración de
+            Argentina</li>
+                <li>Garantía: Contra defecto de fabricación</li>
+                <li>Origen: Nacional</li>
+                <li>Marca: adidas</li>
+            </ul>
+            <!-- 
+            </p>
+            <button class="botonDescripcion"><i class="fa-solid fa-angle-down"></i></button>
+            <hr>
+            <p class="caracteristicas">Caracteristicas</p>
             <ul>
                 <li>Material:</li>
                 <li>Composición</li>
                 <li>Garantía:</li>
                 <li>Marca:</li>
-            </ul>
+            </ul>-->
         </section>
         <section>
             <p>También te puede gustar</p>
@@ -70,28 +86,27 @@
         </section>
     </main>
     <footer>
-        <div>
-            <div>
-                <h3>Empresa</h3>
-                <p>Somos un pequeño grupo de emprendedores, el cual queremos implementar nuestro estilo único que te
-                    hara volar hasta la luna</p>
-            </div>
-            <div>
-                <h3>Horarios</h3>
-                <p>
-                    De Lunes a Viernes
-                    De 09:00hs hasta 18:00hs
-                    Sábados
-                    De 10:00hs a 13:00hs
-                </p>
-                <h3>Contactos</h3>
-                <p><i class="fa-brands fa-whatsapp"></i> 1123432253</p>
-
-            </div>
+        <div class="empresa">
+            <h3>Empresa</h3>
+            <p>Somos un pequeño grupo de emprendedores, el cual queremos implementar nuestro estilo único que te
+                hara volar hasta la luna</p>
         </div>
-        <div>
-            <p>Copyright © 2022 MoonWalking todos los derechos reservado</p>
+        <div class="horarios">
+            <h3 class="hor">Horarios</h3>
+            <p class="hor">
+            <p> De Lunes a Viernes</p>
+            <p>De 09:00hs hasta 18:00hs</p>
+            <p>Sábados</p>
+            <p>De 10:00hs a 13:00hs</p>
+            </p>
+            <h3 class="cont">Contactos</h3>
+            <p class="cont"><i class="fa-brands fa-whatsapp"></i>1123432253
+            </p>
         </div>
     </footer>
+    <div class="copyright">
+        <p>Copyright © 2022 MoonWalking todos los derechos reservado</p>
+    </div>
 </body>
+
 </html>

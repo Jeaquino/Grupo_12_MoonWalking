@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+/* MAIN */
+main{
+    align-items: center;
+}
+
+section hr{
+    color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    margin-left: 10%
+}
+
+/*Seccion 1*/
+.sect1{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin-bottom: 10px;
+}
+
+.ruta{
+    display: none;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*Esto es para que el nombre, el detalle y el precio se vean dentro de la imagen*/
+    position: relative;
+    margin: 20px;
+}
+
+article img{
+    align-items: center;
+    height: 350px;
+}
+/*Dentro de la imagen*/
+.nombreArt{
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 15px
+}
+
+.precio{
+    position: absolute;
+    padding-top: 45px;
+    padding-left: 15px
+}
+
+.detalle{
+    display: none;
+}
+/*Seccion 2*/
+.sect2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.talles{
+    width: 100%;
+    /*margin: 10px 0px;*/
+    margin-top: 15px;
+}
+
+.agregaCarrito{
+    background-color: var(--colorGrisClaro);
+    border: none;
+    width: 40%;
+    /*eight: 35px;*/
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0px 5px 5px #888, 0px 0px 5px #888;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.descripcionpagoenvio{
+    padding: 15px 20px;
+}
+
+.descripcion{
+    padding: 0px 20px;    
+}
+
+.botonDescripcion{
+    text-align: center;
+}
+
+.caracteristicas{
+    padding: 0px 20px;
+}
+/*ul de caracteriscticas*/
+ul{
+    padding: 10px 20px;
+    list-style: none;
+}
+
+/* FOOTER */
+footer{
+    /*FONDO*/
+    background-image: url(/public/img/fondoFooterMobile.jpg);
+    background-position: center;
+    /*FLEXBOX*/
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    height: 100px;
+    gap: 56%;
+    /*SOMBRA*/
+    box-shadow: 0px 10px 5px #888, 0px -5px 5px #888;    
+}
+
+.empresa{
+    display: none;
+}
+
+.horarios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    font-size: small;
+    align-content: space-around;
+}
+
+.hor{
+    width: 50%;
+    text-align: left;
+    flex-direction: column;
+}
+.cont{
+    width: 50%;
+    text-align: right;
+    flex-direction: column;
+}
+.copyright{
+    text-align: center;
+    width: 100%;
+    background-color: var(--colorGrisClaro);
+    margin: 0%;
+    padding: 5px 0px;
+    font-size: x-small;
+}
+
+
+
+/* TABLET */
+@media (min-width:768px){
+    footer{
+        /*FONDO*/
+        background-image: url(/img/fotoFooterTablet.jpg);
+        background-position: center;
+        /*FLEXBOX*/
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+        padding-top: 10px;
+        justify-content: space-evenly;
+        gap: 50%;
+        height:140px;
+        /*TEXTO*/
+        font-size: small;
+        /*SOMBRA*/
+        box-shadow: 0px 10px 5px #888, 0px -5px 5px #888;
+    }
+
+    .empresa{ 
+        display: inline-block;
+        width: 25%;
+        padding-left: 30px;
+    }
+    
+    .horarios{
+        display: inline-block;
+        width: 30%;
+        line-height:normal;
+    }
+
+    .hor{
+        text-align: justify
+ 
+    }
+    
+    .cont{
+        text-align: justify
+    }
+}
+
+/* DESKTOP*/
+@media (min-width:1024px){
+    footer{
+        /*FONDO*/
+        background-image: url(/img/fotoFooterDesktop.jpg);
+        background-position: center;
+        /*FLEXBOX*/
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+        padding-top:10px;
+        justify-content: space-between;
+        gap: 40%;
+        height:auto;
+        height: 180px;
+        /*TEXTO*/
+        font-size: medium;
+        /*SOMBRA*/
+        box-shadow: 0px 10px 5px #888, 0px -5px 5px #888;
+    }
+
+    .empresa{ 
+        display: inline-block;
+        width: 15%;
+        padding-left: 50px;
+       
+    }
+    
+    .horarios{
+        width: 13%;
+        line-height:normal
+    }
+    /*Esto está dentro de horario*/
+    .hor{
+        text-align: justify
+ 
+    }
+    
+    .cont{
+        text-align: justify
+    }
+    
+    .copyright{
+        text-align: center;
+        width: 100%;
+        background-color: var(--colorGrisClaro);
+        margin: 0%;
+        padding: 10px 0px;
+    }
+}
