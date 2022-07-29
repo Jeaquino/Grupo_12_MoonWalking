@@ -1,25 +1,29 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    
+/* HEADER */
+.barraenvios{
+    background-color: var(--colorGrisOscuro);
+    text-align: center;
+    font-size: x-small;
 }
+
 
 /* MAIN */
 main{
     align-items: center;
+    font-size: small;
 }
 
 section hr{
     color: rgba(0, 0, 0, 0.8);
     width: 80%;
-    margin-left: 10%
+    margin-left: 10%;
 }
 
 /*Seccion 1*/
 .sect1{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .ruta{
@@ -37,7 +41,7 @@ article{
 
 article img{
     align-items: center;
-    height: 350px;
+    width: 40%;
 }
 /*Dentro de la imagen*/
 .nombreArt{
@@ -69,8 +73,8 @@ article img{
 
 .talles{
     width: 100%;
-    /*margin: 10px 0px;*/
-    margin-top: 15px;
+   /*margin: 10px 0px;*/
+     /*margin-top: 15px;*/
 }
 
 .agregaCarrito{
@@ -82,19 +86,43 @@ article img{
     align-items: center;
     box-shadow: 0px 5px 5px #888, 0px 0px 5px #888;
     align-self: center;
-    cursor: pointer;
-    margin-top: 10px;
+    cursor: pointer;;
     margin-bottom: 10px;
 }
-
-.descripcionpagoenvio{
-    padding: 15px 20px;
-}
-
 .descripcion{
-    padding: 0px 20px;    
+    padding-left: 30px;
 }
 
+.carrousel{
+    padding-left: 30px;
+}
+.descripcionpagoenvio{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+/*.descripcion{
+    position: relative;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.desplegable {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    padding: 0px 20px;
+}
+
+.descripcion:hover .desplegable {
+    display: block;
+}
+*/
 .botonDescripcion{
     text-align: center;
 }
@@ -104,152 +132,126 @@ article img{
 }
 /*ul de caracteriscticas*/
 ul{
-    padding: 10px 20px;
+    /*padding: 10px 0px;*/
     list-style: none;
 }
 
 /* FOOTER */
 footer{
-    /*FONDO*/
-    background-image: url(/public/img/fondoFooterMobile.jpg);
-    background-position: center;
-    /*FLEXBOX*/
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    margin: 0;
-    height: 100px;
-    gap: 56%;
-    /*SOMBRA*/
-    box-shadow: 0px 10px 5px #888, 0px -5px 5px #888;    
+  box-shadow: 0px 0px 5px #888, 0px -5px 5px #888;
+  position: relative;
+  margin: 0;
+}
+
+footer h3{
+    font-size: small;
+}
+
+.mobileimg{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 80%;
+    opacity: 0.5;
+    height: 100%;
+    margin-left: 11%;
+}
+
+.datos{
+  font-size: x-small;
+  display: flex;
+  flex-wrap: wrap;
+  color: var(grisCasiNegro);
+  justify-content: space-between;
+  text-align: center;
 }
 
 .empresa{
-    display: none;
+    width: 28%;
+    /*text-align: left;*/
+    padding-left: 5px;
+    padding-top:2px;
 }
 
 .horarios{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-    font-size: small;
-    align-content: space-around;
+    width: 30%;
+    /*text-align: right;*/
+    padding-right: 5px;
+    padding-top: 2px;
 }
 
-.hor{
-    width: 50%;
-    text-align: left;
-    flex-direction: column;
-}
-.cont{
-    width: 50%;
-    text-align: right;
-    flex-direction: column;
-}
 .copyright{
     text-align: center;
-    width: 100%;
-    background-color: var(--colorGrisClaro);
-    margin: 0%;
-    padding: 5px 0px;
-    font-size: x-small;
+    background-color: var(--colorGrisOscuro);
 }
-
-
-
 /* TABLET */
 @media (min-width:768px){
-    footer{
-        /*FONDO*/
-        background-image: url(/img/fotoFooterTablet.jpg);
-        background-position: center;
-        /*FLEXBOX*/
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        margin: 0;
-        padding-top: 10px;
-        justify-content: space-evenly;
-        gap: 50%;
-        height:140px;
-        /*TEXTO*/
-        font-size: small;
-        /*SOMBRA*/
-        box-shadow: 0px 10px 5px #888, 0px -5px 5px #888;
+    .datos{
+        line-height: 1.5;
+        font-size: medium;
+    }
+    .mobileimg{
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 80%;
+        opacity: 0.5;
+        height: 100%;
+        margin-left: 11%;
+    } 
+
+    footer h3{
+        font-size: medium;
     }
 
-    .empresa{ 
-        display: inline-block;
-        width: 25%;
-        padding-left: 30px;
+    .empresa{
+        width: 29%;
+        /*text-align: left;*/
+        padding: 20px 5px
     }
     
     .horarios{
-        display: inline-block;
-        width: 30%;
-        line-height:normal;
-    }
-
-    .hor{
-        text-align: justify
- 
-    }
-    
-    .cont{
-        text-align: justify
+        width: 32%;
+        /*text-align: right;*/
+        padding: 20px 5px
     }
 }
 
 /* DESKTOP*/
 @media (min-width:1024px){
-    footer{
-        /*FONDO*/
-        background-image: url(/img/fotoFooterDesktop.jpg);
-        background-position: center;
-        /*FLEXBOX*/
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        margin: 0;
-        padding-top:10px;
-        justify-content: space-between;
-        gap: 40%;
-        height:auto;
-        height: 180px;
-        /*TEXTO*/
+    .datos{
+        line-height: 1.5;
         font-size: medium;
-        /*SOMBRA*/
-        box-shadow: 0px 10px 5px #888, 0px -5px 5px #888;
     }
 
-    .empresa{ 
-        display: inline-block;
-        width: 15%;
-        padding-left: 50px;
-       
+    .mobileimg{
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 50%;
+        opacity: 0.5;
+        height: 100%;
+        margin-left: 25%;
+    } 
+
+    footer h3{
+        font-size: medium;
+    }
+
+    .empresa{
+        width: 22%;
+        /*text-align: left;*/
+        padding-left: 86px;
+        padding-top:20px;
     }
     
     .horarios{
-        width: 13%;
-        line-height:normal
-    }
-    /*Esto está dentro de horario*/
-    .hor{
-        text-align: justify
- 
-    }
-    
-    .cont{
-        text-align: justify
-    }
-    
-    .copyright{
-        text-align: center;
-        width: 100%;
-        background-color: var(--colorGrisClaro);
-        margin: 0%;
-        padding: 10px 0px;
+        width: 40%;
+        /*text-align: right;*/
+        padding-right: 5px;
+        padding-top: 20px;
     }
 }

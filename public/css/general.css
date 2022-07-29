@@ -1,7 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
 :root{
     --colorRojo: #FB372C;
     --colorBeige: #D7C8A7;
-    --colorGrisCasiBlanco: #F7F7F7;
+    --colorGrisCasiBlanco: #BAB7B7;
     --colorGrisClaro: #D9D9D9;
     --colorGrisOscuro: #707070;
     --colorGrisCasiNegro: #3A3938; 

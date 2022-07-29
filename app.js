@@ -1,17 +1,19 @@
 const express = require('express');
 const path = require('path');
 const app = express()
-const port = 3030
+const port = 3031
 
 app.use(express.static('public'));
 app.listen(port, () => console.log('Server running in http://localhost:' + port))
-app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', 'detalle.html')))
+
+
+
 // HOME
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', 'home.html')))
 // REGISTRO
-app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', 'registro.html')))
+app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', 'register.html')))
 // DETALLE
-
+app.get('/detalle', (req,res) => res.sendFile(path.join(__dirname, 'views', 'detalle.html')))
 //LOGIN
 app.get('/', (req,res) => res.sendFile(path.join(__dirname, 'views', 'login.html')))
 //CARRITO
