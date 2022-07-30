@@ -2,10 +2,63 @@
 .encabezado{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
     flex-direction: row;
     background-color: var(--colorGrisOscuro);
  }
+ .container{
+    justify-content: flex-start;
+    left: -37%;
+    top: 4%;
+    transform: translate(-3%, 15%);
+    padding: 6px;
+ }
+ input{
+    outline: none;
+    box-sizing: border-box;
+    height: 35px;
+    width: 0;
+    padding: 0 18px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 12px;
+    border: 1px solid var(--colorGrisOscuro);
+    transition: all .7s ease;
+    text-align: center;
+ }
+ ::placeholder{
+    color: grey;
+ }
+ .btn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 51px;
+    height: 47px;
+    background-color: var(--colorGrisOscuro);
+    line-height: 40px;
+    border-radius: 25%; 
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+ }
+ .btn i{
+    font-size:23px ;
+    color: white;
+    line-height: 47px;
+    transition: all .7 ease;
+ }
+ .container:hover input{
+    width: 350px;
+ }
+ .container:hover i{
+    transform:  rotate(-360deg);
+ }
+ .btn:hover{
+    background: #bcbcbc;
+ }
+
 
 .burger{
     display: flex;
@@ -16,64 +69,79 @@
 }
 .logo_burguer{
     display: flex;
-    /* gap: 10px; */
+    gap: 10px;
     text-shadow: 2px 2px 5px  black;
-    
+    cursor: pointer;
+    list-style: none; 
 }
+
 .carrito{
     text-align: center;
-    padding-right: 6px;
-    padding-top: 6px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
 }
 .carrito img{
    border-radius: 50%;
+   width: 100%;
+   height: 35px;
+   
 }
 hr{
-    width: 30px;
-    height: 1px;
-    margin-bottom: 2px;
+    width: 1px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color:  black;
     border: none;
      }
 
 .barraenvios{
     background-color: var(--colorGrisCasiBlanco);
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-align: center;
 }
 
 .Logo{
-    height: 80px;
+    height: 90px;
+    margin-left: 25%;
 }
-/* .Buscador{
+.Buscador{
     display: flex;
     align-items: center;
-
-} */
-/* .Buscador button{
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    width: 35%;
+}
+.Buscador button{
     text-align: start;
-    width: 8%;
     border: none;
     background-color: #FFF;
     color: var(--colorGrisOscuro);
     transform: rotate(-267deg);
-} */
-/* .form_buscador{
+} 
+.form_buscador{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border: none;
     width: 100%;
     background-color: #FFF;
-    margin: 5px;
-    height: 25px;
-} */
-/* .Buscador input{
+    height: 36px;
+    border-radius: 6px;
+
+} 
+.Buscador input{
     border: none;
     text-align: center;
     width: 85%;
     outline: none;
     background-color: #FFF;
     
-} */
+}
 
 
 /* Main */
@@ -81,7 +149,6 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 350px;
     height: 75px;
 }
 .Flecha1_1er_carrucel{
@@ -95,16 +162,19 @@ hr{
     display: inline-block;
     justify-content: flex-end;
 }
-h6{
-    margin: 4px;
+h4{
+    margin: 8px;
+    gap: 5%;
 }
-section p{
-    font-family: inter;
+article p{
+    font-family:'Inter', sans-serif;
+    font-size: 10px;
+    text-align: center;
 }
 section img{
     width: 100px;
     height: 100px;
-    box-shadow: 1px 1px 6px gray;
+    box-shadow: 5px 5px 8px gray;
 }
 .imagenes_zapatillas{
     display: flex;
@@ -114,11 +184,110 @@ section img{
 .flechas_2{
     padding-top: 12%;
 }
+/* Carrucel */
+.carrucel{
+    margin-top: 5px;
+    padding: 0;
+    font-family: lato;
+}
+.slaider-frame {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+  
+ 
+}
+.slaider-frame img{
+    width: 100px;
+    height: 100%;
+    box-shadow: 1px 1px 6px grey;
+    
+    
+}
+.p_carrucel{
+    font-family:'Inter', sans-serif;
+    font-size: 10px;
+    align-items: flex-end;
+  
+}
+.slaider-frame ul{
+    display: flex;
+    width: 300%;
+    padding: 0;
+    animation: cambio 20s infinite alternate; 
+}
+.slaider-frame li{
+    background-color: rgb(230, 227, 227);
+    width: 36%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.carrucel_logos img{
+    width: 69%;
+    height: 70%;
+    
+}
+.carrucel_logos{
+    margin: 5px;
+    margin-left: 0;
+    margin-right: 0;
+}
+@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
 
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+}
+
+/* Celular */
+@media(max-width: 612px){
+    .Buscador{
+        display: none;
+    }
+    .productos{
+        display: none;
+    }
+    .burger{
+        display: none;
+    }
+}
 
 /* Tablet */
 @media (min-width: 768px){
-   
+   .Logo{
+    margin-left: 50%;
+    height: 120px;
+   }
+   .carrito img{
+    width: 100%;
+    height: 46px;
+   }
+   section img{
+    width: 130px;
+    height: 122px;
+   }
+   .slaider-frame img{
+    width: 89px;
+    height: 188%;
+   }
+   .urbano{
+    display: none;
+   }
+   hr{
+    height: 46px;
+   }
+   .container{
+    display:none
+   }
 }
+
 
     
