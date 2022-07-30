@@ -1,6 +1,214 @@
-
-header{
-    background-color: var(--colorGrisClaro);
+hr{
+    height: 2px;
+    width: 100%;
+    opacity: 0.8;
+    background-color: var(--colorGrisOscuro);
+    box-shadow: 2px 2px 2px rgb(100, 100, 100) ;
+    border: none;
+}
+h1{
+    margin-bottom: 8px ;
+    margin-left: 10px;
 }
 
+h3{
+    color: var(--colorRojo);
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+h4{
+    margin-bottom: 10px;
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+.form_register{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 12px;
+    resize: none;
+}
+.form_register--select{
+    margin-left: 5%;
+    width: 70%;
+    background-color: var(--colorGrisClaro);
+    color: #000;
+    box-shadow: 0px 2px 5px rgb(100, 100, 100) ;
+    border: none;
+}
+.form_register--select select{
+    border: none;  
+    background-color: var(--colorGrisClaro);
+}
+.form_register button{
+    font-size: medium;
+    color: white;
+    background-color: var(--colorGrisOscuro);
+    width: 50%;
+    height: 40px;
+    box-shadow: 0px 2px 5px rgb(100, 100, 100);
+    border: none;
+    border-radius: 8px;
+}
+.form_register--button{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 40px;
+    margin-top: 1%;
+}
 
+.form_register input{
+    margin-left: 5%;
+    width: 70%;
+    outline: none;
+    padding: 4px;
+    background-color: var(--colorGrisClaro);
+    border: none;
+    box-shadow: 0px 2px 5px rgb(100, 100, 100);
+}
+.form_input--number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 5%;
+}
+/* FOOTER */
+footer{
+    box-shadow: 0px 0px 5px #888, 0px -5px 5px #888;
+    position: relative;
+    margin: 0;
+  }
+  
+  footer h3{
+      font-size: small;
+  }
+  
+  .mobileimg{
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      width: 80%;
+      opacity: 0.5;
+      height: 100%;
+      margin-left: 11%;
+  }
+  
+  .datos{
+    font-size: x-small;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(grisCasiNegro);
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .empresa{
+      width: 28%;
+      /*text-align: left;*/
+      padding-left: 5px;
+      padding-top:2px;
+  }
+  
+  .horarios{
+      width: 30%;
+      /*text-align: right;*/
+      padding-right: 5px;
+      padding-top: 2px;
+  }
+  
+  .copyright{
+      text-align: center;
+      background-color: var(--colorGrisOscuro);
+  }
+  /* TABLET */
+  @media (min-width:768px){
+      .datos{
+          line-height: 1.5;
+          font-size: medium;
+      }
+      .mobileimg{
+          position: absolute;
+          z-index: -1;
+          top: 0;
+          left: 0;
+          width: 80%;
+          opacity: 0.5;
+          height: 100%;
+          margin-left: 11%;
+      } 
+  
+      footer h3{
+          font-size: medium;
+      }
+  
+      .empresa{
+          width: 29%;
+          /*text-align: left;*/
+          padding: 20px 5px
+      }
+      
+      .horarios{
+          width: 32%;
+          /*text-align: right;*/
+          padding: 20px 5px
+      }
+  }
+  
+  /* DESKTOP*/
+  @media (min-width:1024px){
+      .datos{
+          line-height: 1.5;
+          font-size: medium;
+      }
+  
+      .mobileimg{
+          position: absolute;
+          z-index: -1;
+          top: 0;
+          left: 0;
+          width: 50%;
+          opacity: 0.5;
+          height: 100%;
+          margin-left: 25%;
+      } 
+  
+      footer h3{
+          font-size: medium;
+      }
+  
+      .empresa{
+          width: 22%;
+          /*text-align: left;*/
+          padding-left: 86px;
+          padding-top:20px;
+      }
+      
+      .horarios{
+          width: 40%;
+          /*text-align: right;*/
+          padding-right: 5px;
+          padding-top: 20px;
+      }
+  }
+
+@media(min-width: 768px){
+    .form_register{
+        flex-direction: row;
+        margin-top: 2%;
+        gap: 20px;
+    }
+    .form_register input{
+        width: 40%;
+    }
+}
+@media(min-width: 1024px){
+
+}

@@ -2,3 +2,5 @@
 @import "/css/general.css";
 @import "./home.css";
 @import './register.css';
+@import './login.css';
+@import './carrito.css';
