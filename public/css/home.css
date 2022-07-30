@@ -14,7 +14,7 @@
     transform: translate(-3%, 15%);
     padding: 6px;
  }
- input{
+ .input_buscador{
     outline: none;
     box-sizing: border-box;
     height: 35px;
@@ -87,7 +87,7 @@
    height: 35px;
    
 }
-hr{
+.barra_hr{
     width: 1px;
     height: 30px;
     margin-left: 10px;
@@ -281,7 +281,7 @@ section img{
    .urbano{
     display: none;
    }
-   hr{
+   .barra_hr{
     height: 46px;
    }
    .container{
