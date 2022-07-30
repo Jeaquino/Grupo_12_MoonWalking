@@ -13,17 +13,24 @@
         <div class="barraenvios">
             <p>Envio gratis a todo el país - Cuotas sin interés</p>
         </div>
-        <div>
-            <div class="burger">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <img src="/design/Logo.jpg" alt="Logo" height="30">
-            <div class="barrabusqueda">
-                <form action=""><i class="fa-solid fa-magnifying-glass"></i></form>
-            </div>
-            <div class="cartYuser">
-          </div>
+        <div class="encabezado">
+            <div class="logo_burguer">   
+               <div class="burger">
+                   <i class="fa-solid fa-bars"></i>
+               </div>
+           </div>
+               <div class="logo">
+               <img class="Logo" src="/design/Logo.jpg" alt="logo" height="0">
+           </div>
+
+
+           
+           <div class="carrito">
+            <img src="/img/carrito.jpg" alt="" height="30">
+            <hr>
+            <img src="/img/usuario luna blanca.jpg" alt="" height="30">
         </div>
+    </div>
     </header>
     <main>
         <h1>Registrarse</h1>
@@ -31,44 +38,57 @@
         <h3>Completa el Formulario</h3>
         <hr>
         <h4>Ingrese sus datos.</h4>
-        <form action="">
-            <input type="text" name="nombre">
-            <input type="text" name="apellido">
-            <input type="number" name="dni">
-            <input type="tel" name="celular">
-            <input type="email" name="email">
-            <input type="password" name="contraseña">
-            <input type="password" name="repetir contraseña">
-            <input type="text" name="calle">
-            <input type="number" name="numero">
-            <input type="number" name="piso">
-            <input type="number" name="cp">
-            <select name="provincia" id=""></select>
+        <form action="" class="form_register">
+            <input type="text" name="name" placeholder="Nombre">
+            <input type="text" name="lastname" placeholder="Apellido">
+            <input type="number" name="dni" placeholder="DNI">
+            <input type="tel" name="tel" placeholder="Celular">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Contraseña">
+            <input type="password" name="password2" placeholder="Repetir contraseña">
+            <input class="input_calle" type="text" name="street" placeholder="Calle">
+             <div class="form_input--number">
+            <input type="number" name="number" placeholder="Número">
+            <input type="number" name="flat" placeholder="Piso" >
+            <input type="number" name="cp" placeholder="CP">
+              </div>
+              <div class="form_register--select">
+            <select name="city" id="city">
+                <option value="" hidden selected>Seleccione su provincia</option>
+                <option value="">Buenos Aires</option>
+                <option value="">Santa fe</option>
+                <option value="">Neuquen</option>
+                <option value="">Cordoba</option>
+                <option value="">Mendoza</option>
+            </select>
+        </div>
+            <div class="form_register--button">
+            <button type="submit">Contiuar</button>
+        </div>
         </form>
     </main>
     <footer>
-        <div>
-            <div>
+        <img class="mobileimg" src="/img/fotofootercentrado.jpg" alt="Imagen del logo">
+        <section class="datos">
+            <div class="empresa">
                 <h3>Empresa</h3>
                 <p>Somos un pequeño grupo de emprendedores, el cual queremos implementar nuestro estilo único que te
                     hara volar hasta la luna</p>
             </div>
-            <div>
+            <div class="horarios">
                 <h3>Horarios</h3>
-                <p>
-                    De Lunes a Viernes
-                    De 09:00hs hasta 18:00hs
-                    Sábados
-                    De 10:00hs a 13:00hs
-                </p>
-                <h3>Contactos</h3>
-                <p><i class="fa-brands fa-whatsapp"></i> 1123432253</p>
-
+                <p>LUNES A VIERNES<br>
+                    De 09:00hs hasta 18:00hs <br>
+                    SÁBADOS <br>
+                    De 10:00hs a 13:00hs</p>
+    
+                <h3>Contacto</h3>
+                <p><i class="fa-brands fa-whatsapp"></i>  1123432253</p>
             </div>
-        </div>
-        <div>
+        </section>
+        <section class="copyright">
             <p>Copyright © 2022 MoonWalking todos los derechos reservado</p>
-        </div>
+        </section>
     </footer>
 </body>
 </html>
