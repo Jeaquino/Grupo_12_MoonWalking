@@ -1,0 +1,241 @@
+.form_carrito{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+    margin-top: 5%;
+}
+.form_carrito i{
+    margin-top: 3%;
+}
+.form_carrito--button{
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--colorGrisClaro); 
+    box-shadow: 0px 2px 5px rgb(100, 100, 100);
+}
+.descripcion_button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8%;
+}
+h3{
+    margin-top: 5%;
+}
+/*DESCRIPCIÓN PRODUCTO*/
+.img_product1 {
+    /*width: 20%;*/
+    box-shadow: 0px 2px 5px rgb(100, 100, 100);
+}
+.article_descrp{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12%;
+    margin-right: 2%;
+}
+
+.product_select{
+    outline: none;
+    border: none;
+    height: 40px;
+    background-color: var(--colorGrisClaro);
+}
+.precio{
+    text-align: right;
+}
+/*TOTAL Y DESCUENTO*/
+
+.div_total-descuento{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 5%;
+    width: 50%;
+}
+.num_descuento{
+    color: #36E171;
+    text-decoration:line-through;
+}
+.hr_total{
+    width: 25%;
+}
+.article_total{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+    margin-left: 50%;
+    text-align: center;
+
+}
+.div_total--num1{
+}
+.div_total--num1 p{
+    width: 100%;
+}
+/*.div_total--num2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}*/
+/*BOTON*/
+.button_sig{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.button_sig button{
+    background-color: var(--colorGrisOscuro);
+    color: black;
+    border: none;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    align-self: center;
+}
+/* FOOTER */
+footer{
+    box-shadow: 0px 0px 5px #888, 0px -5px 5px #888;
+    position: relative;
+    margin: 0;
+  }
+  
+footer h3{
+    font-size: small;
+ }
+  
+.mobileimg{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 80%;
+    opacity: 0.5;
+    height: 100%;
+    margin-left: 11%;
+}
+  
+.datos{
+    font-size: x-small;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(grisCasiNegro);
+    justify-content: space-between;
+    text-align: center;
+}
+  
+.empresa{
+    width: 28%;
+    /*text-align: left;*/
+    padding-left: 5px;
+    padding-top:2px;
+}
+  
+.horarios{
+    width: 30%;
+    /*text-align: right;*/
+    padding-right: 5px;
+    padding-top: 2px;
+}
+  
+.copyright{
+    text-align: center;
+    background-color: var(--colorGrisOscuro);
+    font-size: x-small;
+}
+  /* TABLET */
+  @media (min-width:768px){
+      .datos{
+          line-height: 1.5;
+          font-size: medium;
+      }
+      .mobileimg{
+          position: absolute;
+          z-index: -1;
+          top: 0;
+          left: 0;
+          width: 80%;
+          opacity: 0.5;
+          height: 100%;
+          margin-left: 11%;
+      } 
+  
+      footer h3{
+          font-size: medium;
+      }
+  
+      .empresa{
+          width: 29%;
+          /*text-align: left;*/
+          padding: 20px 5px
+      }
+      
+      .horarios{
+          width: 32%;
+          /*text-align: right;*/
+          padding: 20px 5px
+      }
+  }
+  
+  /* DESKTOP*/
+  @media (min-width:1024px){
+      .datos{
+          line-height: 1.5;
+          font-size: medium;
+      }
+  
+      .mobileimg{
+          position: absolute;
+          z-index: -1;
+          top: 0;
+          left: 0;
+          width: 50%;
+          opacity: 0.5;
+          height: 100%;
+          margin-left: 25%;
+      } 
+  
+      footer h3{
+          font-size: medium;
+      }
+  
+      .empresa{
+          width: 22%;
+          /*text-align: left;*/
+          padding-left: 86px;
+          padding-top:20px;
+      }
+      
+      .horarios{
+          width: 40%;
+          /*text-align: right;*/
+          padding-right: 5px;
+          padding-top: 20px;
+      }
+  }
+
+/*Tablet carrito*/
+@media (min-width: 768px) {
+    .hr_total{
+        width: 30%;
+    }
+    .form_carrito i{
+        margin-top: 1%;
+    }
+}
+/*DESKTOP carrito*/
+@media (min-width: 1024px) {
+    
+}

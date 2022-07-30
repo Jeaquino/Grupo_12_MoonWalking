@@ -78,6 +78,125 @@ h4{
     width: 70%;
     margin-left: 5%;
 }
+/* FOOTER */
+footer{
+    box-shadow: 0px 0px 5px #888, 0px -5px 5px #888;
+    position: relative;
+    margin: 0;
+  }
+  
+  footer h3{
+      font-size: small;
+  }
+  
+  .mobileimg{
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      width: 80%;
+      opacity: 0.5;
+      height: 100%;
+      margin-left: 11%;
+  }
+  
+  .datos{
+    font-size: x-small;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(grisCasiNegro);
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .empresa{
+      width: 28%;
+      /*text-align: left;*/
+      padding-left: 5px;
+      padding-top:2px;
+  }
+  
+  .horarios{
+      width: 30%;
+      /*text-align: right;*/
+      padding-right: 5px;
+      padding-top: 2px;
+  }
+  
+  .copyright{
+      text-align: center;
+      background-color: var(--colorGrisOscuro);
+  }
+  /* TABLET */
+  @media (min-width:768px){
+      .datos{
+          line-height: 1.5;
+          font-size: medium;
+      }
+      .mobileimg{
+          position: absolute;
+          z-index: -1;
+          top: 0;
+          left: 0;
+          width: 80%;
+          opacity: 0.5;
+          height: 100%;
+          margin-left: 11%;
+      } 
+  
+      footer h3{
+          font-size: medium;
+      }
+  
+      .empresa{
+          width: 29%;
+          /*text-align: left;*/
+          padding: 20px 5px
+      }
+      
+      .horarios{
+          width: 32%;
+          /*text-align: right;*/
+          padding: 20px 5px
+      }
+  }
+  
+  /* DESKTOP*/
+  @media (min-width:1024px){
+      .datos{
+          line-height: 1.5;
+          font-size: medium;
+      }
+  
+      .mobileimg{
+          position: absolute;
+          z-index: -1;
+          top: 0;
+          left: 0;
+          width: 50%;
+          opacity: 0.5;
+          height: 100%;
+          margin-left: 25%;
+      } 
+  
+      footer h3{
+          font-size: medium;
+      }
+  
+      .empresa{
+          width: 22%;
+          /*text-align: left;*/
+          padding-left: 86px;
+          padding-top:20px;
+      }
+      
+      .horarios{
+          width: 40%;
+          /*text-align: right;*/
+          padding-right: 5px;
+          padding-top: 20px;
+      }
+  }
 
 @media(min-width: 768px){
     .form_register{
