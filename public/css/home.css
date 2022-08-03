@@ -161,16 +161,16 @@
     display: inline-block;
     justify-content: flex-end;
 }
-h4{
+.h4{
     margin: 8px;
     gap: 5%;
 }
-article p{
+.texto_info{
     font-family:'Inter', sans-serif;
     font-size: 10px;
     text-align: center;
 }
-section img{
+.Img{
     width: 100px;
     height: 100px;
     box-shadow: 5px 5px 8px gray;
@@ -269,7 +269,7 @@ section img{
     width: 100%;
     height: 46px;
    }
-   section img{
+   .carrucel_logos{
     width: 160px;
     height: 164px;
 }
