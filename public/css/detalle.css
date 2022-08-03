@@ -53,13 +53,13 @@
 
 
 /* MAIN */
-main{
+.main-detalle{
     align-items: center;
     font-size: small;
     justify-content: center;
 }
 
-section hr{
+.lineaSeparadora{
     color: rgba(0, 0, 0, 0.8);
     width: 80%;
     margin-left: 10%;
@@ -79,6 +79,13 @@ section hr{
     display: none;
 }
 
+.cuotas{
+    display: none;
+}
+.cuotasDe{
+    display: none;
+}
+
 .foto{
     display: flex;
     flex-direction: column;
@@ -90,7 +97,7 @@ section hr{
     
 }
 
-article img{
+.imagenDetalle {  /*article img*/
     align-items: center;
     width: 100%;
     
@@ -153,7 +160,12 @@ article img{
     padding-left: 30px;
     padding-bottom: 10px;
 }
-
+.descripcionDetallada{
+    display: none;    
+}
+.desplegable{
+    display: none;
+}
 .carrousel{
     padding-left: 30px;
 }
@@ -162,16 +174,15 @@ article img{
     padding-bottom: 10px;
 }
 
-
 .botonDescripcion{
     text-align: center;
 }
 
-.caracteristicas{
+/*.caracteristicas{
     padding: 0px 20px;
-}
+}*/
 /*ul de caracteriscticas*/
-ul{
+.ul{
     /*padding: 10px 0px;*/
     list-style: none;
 }
@@ -249,7 +260,18 @@ footer h3{
         padding-left: 15px;
         font-size:small;
     }
-
+    .cuotas{
+        display: none;
+    }
+    .cuotasDe{
+        display: none;
+    }
+    .descripcionDetallada{
+        display: none;    
+    }
+    .desplegable{
+        display: none;
+    }
     .sect1{
         width: 400px;
         height: 400px;
@@ -317,6 +339,71 @@ footer h3{
 
 /* DESKTOP*/
 @media (min-width:1024px){
+    /* MAIN */
+    main{
+        font-size: medium;
+        justify-content: space-evenly;
+    }
+    section hr{
+        display: none;
+    }
+    .ruta{
+        display: block;
+    }
+    .foto{
+        flex-direction: row-reverse;
+        position: unset;
+    }
+    .sect1{
+        box-shadow: 0px 0px 0px rgb(255, 255, 255);
+        width: 100%;
+        height: auto;
+
+    }
+    article img{
+        width: 40%;
+    }
+    /* AL LADO DE LA IMAGEN */ 
+    .nombreArt{
+        position: absolute;
+        padding-left: 50%;
+        padding-top: 70px;
+       }
+    
+    .detalle{
+        position: absolute;
+        padding-left: 50%;
+        padding-top: 90px;
+        display: block;
+       }
+    .precio{
+        position: absolute;
+        padding-left: 50%;
+        padding-top: 145px;
+       }
+    
+    .cuotas{
+        position: absolute;
+        padding-left: 50%;
+        padding-top: 167px;
+        display: block;
+       }
+
+    .cuotasDe{
+        position: absolute;
+        padding-left: 50%;
+        padding-top: 186px;
+        display: block;
+       }
+    /* HASTA ACA*/
+    .descripcionDetallada{
+        display: block;
+        
+    }
+    .desplegable{
+        display: block;
+
+    }
 
     /* FOOTER */
         .mobileimg{
