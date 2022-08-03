@@ -190,7 +190,7 @@
     font-family: lato;
 }
 .slaider-frame {
-  width: 95%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
   
@@ -269,11 +269,6 @@
     width: 100%;
     height: 46px;
    }
-   .carrucel_logos{
-    width: 160px;
-    height: 164px;
-}
-   
    .slaider-frame img{
     width: 89px;
     height: 188%;

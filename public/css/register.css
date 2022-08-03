@@ -60,19 +60,19 @@ hr{
     box-shadow: 2px 2px 2px rgb(100, 100, 100) ;
     border: none;
 }
-h1{
+.h1_register{
     margin-bottom: 8px ;
     margin-left: 10px;
 }
 
-h3{
+.h3_register{
     color: var(--colorRojo);
     margin-left: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
     font-weight: 400;
 }
-h4{
+.h4_register{
     margin-bottom: 10px;
     margin-top: 10px; 
     margin-left: 10px;

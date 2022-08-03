@@ -51,7 +51,11 @@
     background: #bcbcbc;
  }
 
-
+.btn_carrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .form_carrito{
     display: flex;
     flex-direction:row ;
@@ -82,26 +86,43 @@ h3{
     margin-top: 5%;
 }
 /*DESCRIPCIÓN PRODUCTO*/
-.img_product1 {
-    /*width: 20%;*/
-    box-shadow: 0px 2px 5px rgb(100, 100, 100);
-}
+
 .article_descrp{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     gap: 12%;
-    margin-right: 2%;
+    margin-right: 30%;
+    margin-left: 5%;
+}
+/* .para.mobile{
+    display: flex;
+    flex-direction: column;
+} */
+.articulo{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.Img_carrito{
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 5px 8px gray;
+    /* margin-right: 15%; */
 }
 
+.h4_p{
+    margin-right: 5;
+}
 .product_select{
     outline: none;
     border: none;
     height: 40px;
     background-color: var(--colorGrisClaro);
 }
-.precio{
+.precio_carrito{
     text-align: right;
 }
 /*TOTAL Y DESCUENTO*/
@@ -114,12 +135,34 @@ h3{
     margin-top: 5%;
     width: 50%;
 }
+.resumen_carrito{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+}
+.num_resumen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    margin: 5%;
+}
+.hr_total{
+    width: 200%;
+    margin: 5%;
+}
+.total_descuento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    
+}
 .num_descuento{
     color: #36E171;
     text-decoration:line-through;
-}
-.hr_total{
-    width: 25%;
 }
 .article_total{
     display: flex;
@@ -208,8 +251,32 @@ footer h3{
     background-color: var(--colorGrisOscuro);
     font-size: x-small;
 }
-  /* TABLET */
+/* mobile */
+@media (max-width:349px){
+    
+
+}
+/* TABLET */
   @media (min-width:768px){
+    .article_descrp{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12%;
+        margin-right: 30%;
+        margin-left: 10%;
+    }
+    .para_mobile{
+        margin-right: 35%;
+        font-size: 20px;
+    }
+    .Img_carrito{
+        width: 300px;
+        height: 300px;
+        box-shadow: 5px 5px 8px gray;
+        /* margin-left: 10%; */
+    }
       .datos{
           line-height: 1.5;
           font-size: medium;
@@ -248,7 +315,12 @@ footer h3{
           line-height: 1.5;
           font-size: medium;
       }
-  
+      .Img_carrito{
+        width: 300px;
+        height: 300px;
+        box-shadow: 5px 5px 8px gray;
+        margin-left: 10%;
+    }
       .mobileimg{
           position: absolute;
           z-index: -1;
@@ -281,9 +353,7 @@ footer h3{
 
 /*Tablet carrito*/
 @media (min-width: 768px) {
-    .hr_total{
-        width: 30%;
-    }
+    
     .form_carrito i{
         margin-top: 1%;
     }

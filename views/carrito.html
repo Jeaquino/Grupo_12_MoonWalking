@@ -28,7 +28,7 @@
             </div>
         </div>
             <div class="logo">
-            <img class="Logo" src="/design/Logo.jpg" alt="logo" height="0">
+            <a href="/"><img class="Logo" src="/design/Logo.jpg" alt="logo" height="0"></a>
         </div>
         
         
@@ -47,27 +47,22 @@
     </header>
     <main class="main_carrito">
         <form action="" class="form_carrito">
-            <button class="form_carrito--button" type="">1</button><i class="fa-solid fa-arrow-right-long"></i>
-            <button class="form_carrito--button" type="">2</button><i class="fa-solid fa-arrow-right-long"></i>
-            <button class="form_carrito--button" type="">3</button><i class="fa-solid fa-arrow-right-long"></i>
-            <button class="form_carrito--button" type="">4</button>
+            <div class="btn_carrito"><button class="form_carrito--button" type="">1</button><p>Carrito</p></div><i class="fa-solid fa-arrow-right-long"></i>
+            <div class="btn_carrito"><button class="form_carrito--button" type="">2</button><p>Datos</p></div><i class="fa-solid fa-arrow-right-long"></i>
+            <div class="btn_carrito"><button class="form_carrito--button" type="">3</button><p>Envío</p></div><i class="fa-solid fa-arrow-right-long"></i>
+            <div class="btn_carrito"><button class="form_carrito--button" type="">4</button><p>Pago</p></div>
         </form>
-        <div class="descripcion_button">
-            <p>Carrito</p>
-            <p>Datos</p>
-            <p>Envío</p>
-            <p>Pago</p>
-        </div>
         <h3>Carrito</h3>
         <hr>
-       <article class="article_descrp">
+       <article class="articulo">
     
-            <img class="img_product1" src="" alt="producto">
-       
-            <div class="product1_descrp">
-                <h4>Puma Mayze Women</h4>
+            <img class="Img_carrito" src="/img/zapatillas/zapa 4.jpg" alt="producto">
+       <div class="para_mobile">
+            <div class="h4_p">
+                <h4 class="h4_carrito">Puma Mayze W</h4>
                 <p>Color: rojo</p>
             </div>
+            <div class="article_descrp">
                  <select class="product_select" name="cantidad" id="">
                     <option value="number">1</option>
                     <option value="number">2</option>
@@ -75,16 +70,20 @@
                     <option value="number">4</option>
                     <option value="number">5</option>
                 </select>
-                <p class="precio">$19.999</p>
+                <p class="precio_carrito">$19.999</p>
+        </div>
+    </div>
          </article>
         
         <hr>
-        <article class="article_descrp">
-            <img class="img_product1" src="" alt="producto">
-            <div class="product1_descrp">
-                <h4>Adidas Asir W</h4>
+        <article class="articulo">
+            <img class="Img_carrito" src="/img/zapatillas/zapa 1.jpg" alt="producto">
+            <div class="para_mobile">
+            <div class="h4_p">
+                <h4 class="h4_carrito">Adidas Asir W</h4>
                 <p>Color: blanco</p>
             </div>
+            <div class="article_descrp">
                  <select class="product_select" name="cantidad" id="">
                     <option value="number">1</option>
                     <option value="number">2</option>
@@ -92,16 +91,20 @@
                     <option value="number">4</option>
                     <option value="number">5</option>
                 </select>
-                <p class="precio">$20.000</p>
+                <p class="precio_carrito">$20.000</p>
+            </div>
+        </div>
          </article>
         <hr>
 
-        <article class="article_descrp">
-            <img class="img_product1" src="" alt="producto">
-            <div class="product1_descrp">
-                <h4>Nike Air Force 1</h4>
+        <article class="articulo">
+            <img class="Img_carrito" src="/img/urbano/zapa 1.jpg" alt="producto">
+            <div class="para_mobile">
+            <div class="h4_p">
+                <h4 class="h4_carrito">Nike Air Force 1</h4>
                 <p>Color: negro</p>
             </div>
+            <div class="article_descrp">
                  <select class="product_select" name="cantidad" id="">
                     <option value="number">1</option>
                     <option value="number">2</option>
@@ -109,24 +112,26 @@
                     <option value="number">4</option>
                     <option value="number">5</option>
                 </select>
-                <p class="precio">$27.999</p>
-         </article>
+                <p class="precio_carrito">$27.999</p>
+           </div>
+           </div> 
+            </article>
         <hr>
-
-        <div class="div_total-descuento">
+<div class="resumen_carrito">
+        <div class="total_descuento">
             <h4>Descuento</h4>
             <h4>Total</h4>
         </div>
-        <article class="article_total">
-        <div class="div_total--num1">
-            <p class="num_descuento">$6.9999</p>
-            <p>$69.999</p>
-        </div>
+        
+       <div class="num_resumen">
+            <p class="num_descuento">$6.9999</p><p>$69.999</p>
+            
+        
        
             <hr class="hr_total">
             <p>$63.000</p>
-       
-        </article>
+        </div>
+        </div>
 
         <div class="button_sig">
             <button type="submit">Siguiente</button>
@@ -134,7 +139,7 @@
         
     </main>
     <footer>
-        <img class="mobileimg" src="/img/fotofootercentrado.jpg" alt="Imagen del logo">
+        <img class="mobileimg" src="/img/fotofooter.jpg" alt="Imagen del logo">
         <section class="datos">
             <div class="empresa">
                 <h3>Empresa</h3>
