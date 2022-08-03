@@ -1,0 +1,143 @@
+/* HEADER */
+.encabezado{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: var(--colorGrisOscuro);
+ }
+ .container{
+    justify-content: flex-start;
+    left: -37%;
+    top: 4%;
+    transform: translate(-3%, 15%);
+    padding: 6px;
+ }
+ .input_buscador{
+    outline: none;
+    box-sizing: border-box;
+    height: 35px;
+    width: 0;
+    padding: 0 18px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 12px;
+    border: 1px solid var(--colorGrisOscuro);
+    transition: all .7s ease;
+    text-align: center;
+ }
+ ::placeholder{
+    color: grey;
+ }
+ .btn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 51px;
+    height: 47px;
+    background-color: var(--colorGrisOscuro);
+    line-height: 40px;
+    border-radius: 25%; 
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+ }
+ .btn i{
+    font-size:23px ;
+    color: white;
+    line-height: 47px;
+    transition: all .7s ease;
+ }
+ .container:hover input{
+    width: 250px;
+ }
+ .container:hover i{
+    transform:  rotate(-360deg);
+ }
+ .btn:hover{
+    background: #bcbcbc;
+ }
+
+
+.burger{
+    display: flex;
+    align-items: center;
+    width: 0%;
+    padding: 6px;
+    
+}
+.logo_burguer{
+    display: flex;
+    gap: 10px;
+    text-shadow: 2px 2px 5px  black;
+    cursor: pointer;
+    list-style: none; 
+}
+
+.carrito{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+}
+.carrito img{
+   border-radius: 50%;
+   width: 100%;
+   height: 35px;
+   
+}
+.barra_hr{
+    width: 1px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:  black;
+    border: none;
+     }
+
+.barraenvios{
+    background-color: var(--colorGrisCasiBlanco);
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.Logo{
+    height: 90px;
+}
+.Buscador{
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    width: 35%;
+}
+.Buscador button{
+    text-align: start;
+    border: none;
+    background-color: #FFF;
+    color: var(--colorGrisOscuro);
+    transform: rotate(-267deg);
+} 
+.form_buscador{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    background-color: #FFF;
+    height: 36px;
+    border-radius: 6px;
+
+} 
+.Buscador input{
+    border: none;
+    text-align: center;
+    width: 85%;
+    outline: none;
+    background-color: #FFF;
+    
+}

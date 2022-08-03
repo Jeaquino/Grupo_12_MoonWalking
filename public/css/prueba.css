@@ -1,0 +1,135 @@
+main{
+    align-items: center;
+    font-size: small;
+    justify-content: center;
+}
+
+section hr{
+    color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    margin-left: 10%;
+}
+
+/*Seccion 1*/
+.sect1{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.ruta{
+    display: none;
+}
+
+
+
+.foto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*Esto es para que el nombre, el detalle y el precio se vean dentro de la imagen*/
+    position: relative;
+    margin: 20px;
+    align-items: center;
+    
+}
+
+article img{
+    align-items: center;
+    width: 100%;
+    
+}
+/*Dentro de la imagen*/
+.nombreArt{
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 15px
+}
+
+.precio{
+    position: absolute;
+    padding-top: 45px;
+    padding-left: 15px
+}
+
+.detalle{
+    display: none;
+}
+.cuotas{
+    display: none;
+}
+.cuotasDe{
+    display: none;
+}
+/* HATS ACA */
+/*Seccion 2*/
+.sect2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.talles{
+    width: 100%;
+    margin-bottom: 5px;
+   /*margin: 10px 0px;*/
+     /*margin-top: 15px;*/
+}
+
+.agregaCarrito{
+    background-color: var(--colorGrisClaro);
+    border: none;
+    width: 40%;
+    /*eight: 35px;*/
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0px 5px 5px #888, 0px 0px 5px #888;
+    align-self: center;
+    cursor: pointer;;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.info{
+    margin-left:5%;
+    margin-right: 5%;
+}
+.descripcion{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.descripcionDetallada{
+    display: none;    
+}
+.desplegable{
+    display: none;
+}
+.carrousel{
+    padding-left: 30px;
+}
+.descripcionpagoenvio{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.botonDescripcion{
+    text-align: center;
+}
+
+/*.caracteristicas{
+    padding: 0px 20px;
+}*/
+/*ul de caracteriscticas*/
+ul{
+    /*padding: 10px 0px;*/
+    list-style: none;
+}
