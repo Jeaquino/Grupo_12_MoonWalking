@@ -339,6 +339,7 @@ footer h3{
 
 /* DESKTOP*/
 @media (min-width:1024px){
+
     /* MAIN */
     .mainDetalle{
         font-size: medium;
@@ -358,53 +359,95 @@ footer h3{
         box-shadow: 0px 0px 0px rgb(255, 255, 255);
         width: 100%;
         height: auto;
-
     }
+
     .imagenDetalle{
         width: 40%;
+        padding-left: 100px;
+    }
+
+    .sect2{
+       padding: 0;
+       height: 0;
+    }
+    .talles{
+        position: absolute;
+        right: -202px;
+        top: 370px;
+        font-size: large;
+    }
+    .agregaCarrito{
+        width: 20%;
+        position: absolute;
+        right: 326px;
+        top: 470px;
+        padding: 5px;
+        margin: 0px;
+    }
+    .descripcionpagoenvio {
+        display: none;
     }
     /* AL LADO DE LA IMAGEN */ 
     .nombreArt{
         position: absolute;
         padding-left: 50%;
         padding-top: 70px;
+        font-size:x-large;
        }
     
     .detalle{
         position: absolute;
         padding-left: 50%;
-        padding-top: 90px;
+        padding-top: 95px;
         display: block;
        }
+
     .precio{
         position: absolute;
         padding-left: 50%;
         padding-top: 145px;
+        font-size:x-large;
        }
     
     .cuotas{
         position: absolute;
         padding-left: 50%;
-        padding-top: 167px;
+        padding-top: 173px;
         display: block;
+        font-size:larger;
        }
 
     .cuotasDe{
         position: absolute;
         padding-left: 50%;
-        padding-top: 186px;
+        padding-top: 195px;
         display: block;
+        font-size:x-small;
        }
     /* HASTA ACA*/
     .descripcionDetallada{
         display: block;
         
     }
-    .desplegable{
+    .hide{
+        display: none;
+        list-style: none;
+        line-height: 1.5;
+    }
+    
+    .show{
         display: block;
-
+    }
+    .descripcion{
+        padding-bottom: 10px;
+        font-size: large;
     }
 
+    #opciones{
+        margin-left: 13%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
     /* FOOTER */
         .mobileimg{
         position: absolute;
@@ -427,7 +470,6 @@ footer h3{
     .horarios{
         width: 40%;
         /*text-align: right;*/
-        padding-right: 5px;
-        padding-top: 20px;
+        padding:  0;
     }
 }
