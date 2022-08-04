@@ -232,6 +232,43 @@
     margin-left: 0;
     margin-right: 0;
 }
+/* Proximamente */
+.Proximamente{
+    width: 51px;
+    height: 20px;
+    border-radius: 5px;
+    /* right: 0; */
+    left: 50px;
+    top: 10px;
+    background: rgb(217, 144, 144);
+    position: absolute;
+    transform: rotate(30deg);
+}
+.Proximamente p{
+    font-size:10px;
+    text-align: center;
+}
+.proximamente_logo{
+    position: relative;
+}
+.disponible_logo{
+    position: relative;
+}
+.Disponible p{
+    font-size:9px;
+    text-align: center;
+}
+.Disponible{
+    width: 51px;
+    height: 20px;
+    border-radius: 5px;
+    /* right: 0; */
+    left: 50px;
+    top: 10px;
+    background: rgb(152, 230, 145);
+    position: absolute;
+    transform: rotate(30deg);
+}
 @keyframes cambio {
     0%{margin-left: 0;}
     20%{margin-left: 0;}
@@ -375,6 +412,36 @@ footer{
         height: 250px;
         box-shadow: 5px 5px 8px grey;
       }
+      .Proximamente{
+        width: 96px;
+        height: 20px;
+        border-radius: 5px;
+        /* right: 0; */
+        left: 157px;
+        top: 28px;
+        background: rgb(217, 144, 144);
+        position: absolute;
+        transform: rotate(35deg);
+    }
+    .Proximamente p{
+        font-size:12px;
+        text-align: center;
+    }
+    .Disponible p{
+        font-size:12px;
+        text-align: center;
+    }
+    .Disponible{
+        width: 96px;
+        height: 20px;
+        border-radius: 5px;
+        /* right: 0; */
+        left: 157px;
+        top: 28px;
+        background: rgb(152, 230, 145);
+        position: absolute;
+        transform: rotate(35deg);
+    }
   }
 
   /* DESKTOP*/
