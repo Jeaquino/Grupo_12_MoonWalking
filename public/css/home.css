@@ -265,14 +265,19 @@
     margin-left: 50%;
     height: 120px;
    }
+   .carrucel_logos Img{
+    width: 25%;
+    height: 70%;
+}
+   }
    .carrito img{
     width: 100%;
     height: 46px;
    }
-   .slaider-frame img{
+   /* .slaider-frame img{
     width: 89px;
     height: 188%;
-   }
+   } */
    .urbano{
     display: none;
    }
@@ -282,7 +287,7 @@
    .container{
     display:none
    }
-}
+
 /* FOOTER */
 footer{
     box-shadow: 0px 0px 5px #888, 0px -5px 5px #888;
@@ -367,8 +372,13 @@ footer{
           /*text-align: right;*/
           padding: 20px 5px
       }
+      .Img{
+        width: 250px;
+        height: 250px;
+        box-shadow: 5px 5px 8px grey;
+      }
   }
-  
+
   /* DESKTOP*/
   @media (min-width:1024px){
       .datos{
