@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../partials/head') %>
+
+<body>
+
+    <%- include('../partials/header') %>
+
+    <main>
+        <h1 class="h1_register">Registrarse</h1>
+        <hr>
+        <h3 class="h3_register">Completa el Formulario</h3>
+        <hr>
+        <h4 class="h4_register">Ingrese sus datos.</h4>
+        <form action="" class="form_register">
+            <input type="text" name="name" placeholder="Nombre">
+            <input type="text" name="lastname" placeholder="Apellido">
+            <input type="number" name="dni" placeholder="DNI">
+            <input type="tel" name="tel" placeholder="Celular">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Contraseña">
+            <input type="password" name="password2" placeholder="Repetir contraseña">
+            <input class="input_calle" type="text" name="street" placeholder="Calle">
+             <div class="form_input--number">
+            <input type="number" name="number" placeholder="Número">
+            <input type="number" name="flat" placeholder="Piso" >
+            <input type="number" name="cp" placeholder="CP">
+              </div>
+              <div class="form_register--select">
+            <select name="city" id="city">
+                <option value="" hidden selected>Seleccione su provincia</option>
+                <option value="">Buenos Aires</option>
+                <option value="">Santa fe</option>
+                <option value="">Neuquen</option>
+                <option value="">Cordoba</option>
+                <option value="">Mendoza</option>
+            </select>
+        </div>
+            <div class="form_register--button">
+            <button type="submit">Contiuar</button>
+        </div>
+        </form>
+    </main>
+    
+   <%- include('../partials/footer') %>
+
+</body>
+</html>
