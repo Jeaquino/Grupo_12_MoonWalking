@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD:views/carrito.html
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,43 +12,11 @@
         <link rel="icon" href="/img/carrito.jpg">
         </head>
 </head>
+=======
+<%- include('../partials/head') %>
+>>>>>>> 940c675837bb33bf0ea0508659010e0ae4b37e3a:Grupo_12_MoonWalking/src/views/users/carrito.ejs
 <body>
-    <header>
-        <div class="barraenvios">
-            <p>Envio gratis a todo el país - Cuotas sin interés</p>
-        </div>
-
-        <div class="encabezado">
-         <div class="logo_burguer">   
-            <div class="burger">
-                <i class="fa-solid fa-bars"></i>
-                
-            </div>
-        </div>
-        <div class="container">
-            <input class="input_buscador" type="text" placeholder="Buscar">
-            <div class="btn">
-                <i class="fa fa-search"></i>
-            </div>
-        </div>
-            <div class="logo">
-            <a href="/"><img class="Logo" src="/design/Logo.jpg" alt="logo" height="0"></a>
-        </div>
-        
-        
-            <div class="Buscador">
-            <form class="form_buscador" action="">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                <input type="text" placeholder="Buscador"/>               
-               </form>
-            </div>
-            <div class="carrito">
-                <a href="/carrito"><img src="/img/carrito.jpg" alt="" height="30"></a>
-                <hr class="barra_hr">
-                <a href="/login"> <img src="/img/usuario luna blanca.jpg" alt="" height="30"></a>
-            </div>
-        </div>
-    </header>
+    <%- include('../partials/header') %>
     <main class="main_carrito">
         <form action="" class="form_carrito">
             <div class="btn_carrito"><button class="form_carrito--button" type="">1</button><p>Carrito</p></div><i class="fa-solid fa-arrow-right-long"></i>
@@ -141,28 +110,6 @@
         </div> 
         
     </main>
-    <footer>
-        <img class="mobileimg" src="/img/fotofooter.jpg" alt="Imagen del logo">
-        <section class="datos">
-            <div class="empresa">
-                <h3>Empresa</h3>
-                <p>Somos un pequeño grupo de emprendedores, el cual queremos implementar nuestro estilo único que te
-                    hara volar hasta la luna</p>
-            </div>
-            <div class="horarios">
-                <h3>Horarios</h3>
-                <p>LUNES A VIERNES<br>
-                    De 09:00hs hasta 18:00hs <br>
-                    SÁBADOS <br>
-                    De 10:00hs a 13:00hs</p>
-    
-                <h3>Contacto</h3>
-                <p><i class="fa-brands fa-whatsapp"></i>  1123432253</p>
-            </div>
-        </section>
-        <section class="copyright">
-            <p>Copyright © 2022 MoonWalking todos los derechos reservado</p>
-        </section>
-    </footer>
+    <%- include('../partials/footer') %>
 </body>
 </html>
