@@ -52,7 +52,7 @@
  }
 
  
-hr{
+.hr_register{
     height: 2px;
     width: 100%;
     opacity: 0.8;
@@ -63,6 +63,11 @@ hr{
 .h1_register{
     margin-bottom: 8px ;
     margin-left: 10px;
+}
+.h1_agregar_producto{
+    margin-bottom: 50px ;
+    margin-left: 10px;
+    text-align: center;
 }
 
 .h3_register{
@@ -96,6 +101,47 @@ hr{
 .form_register--select select{
     border: none;  
     background-color: var(--colorGrisClaro);
+}
+@media (max-width:1024px){
+    .main_agregar_producto{
+    width: 600px;
+    margin: 100px auto;
+}
+
+}
+@media (min-width:350px){
+    .main_agregar_producto{
+    width: 600px;
+    margin: 100px auto;
+    flex-wrap: wrap;
+}
+
+}
+.agregar_producto1{
+    flex-direction: row; 
+    gap: 10px;
+}
+.agregar_producto2{
+    flex-direction: row; 
+    gap: 3%;
+
+}
+.col-12{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    justify-content: space-between;
+    padding: 5px;
+}
+.section_agregar_producto{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.form__box  {
+    text-align: center;
 }
 .form_register button{
     font-size: medium;

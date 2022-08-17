@@ -195,7 +195,7 @@
  
 }
 .slaider-frame img{
-    width: 100px;
+    width: 75px;
     height: 100%;
     box-shadow: 1px 1px 6px grey;
     
@@ -280,49 +280,31 @@
     70%{margin-left: -200%;}
     
 }
-
-/* Celular */
-@media(max-width: 612px){
-    .Buscador{
-        display: none;
-    }
-    .productos{
-        display: none;
-    }
-    .burger{
-        display: none;
-    }
-}
-
-/* Tablet */
-@media (min-width: 768px){
-   .Logo{
-    margin-left: 50%;
-    height: 120px;
-   }
-   .carrucel_logos Img{
-    width: 25%;
-    height: 70%;
-}
-   
-   .carrito img{
+/* redes */
+.hr_redes{
     width: 100%;
-    height: 46px;
-   }
-   /* .slaider-frame img{
-    width: 89px;
-    height: 188%;
-   } */
-   .urbano{
-    display: none;
-   }
-   .barra_hr{
-    height: 46px;
-   }
-   .container{
-    display: none;
-   }
- }
+    height: 3px;
+    background-color:  black;
+    border: none;
+}
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--colorGrisOscuro);
+    margin-top: 5px;
+    
+}
+.Img_redes{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 15px;
+    cursor: pointer;
+
+}
 /* FOOTER */
 footer{
     box-shadow: 0px 0px 5px #888, 0px -5px 5px #888;
@@ -375,6 +357,63 @@ footer{
       background-color: var(--colorGrisOscuro);
       font-size: x-small;
   }
+
+/* Celular */
+@media(max-width: 612px){
+    .Buscador{
+        display: none;
+    }
+    .productos{
+        display: none;
+    }
+    .burger{
+        display: none;
+    }
+    
+}
+
+/* Tablet */
+@media (min-width: 768px){
+   .Logo{
+    margin-left: 50%;
+    height: 120px;
+   }
+   .carrucel_logos Img{
+    width: 25%;
+    height: 70%;
+}
+   
+   .carrito img{
+    width: 100%;
+    height: 46px;
+   }
+   /* .slaider-frame img{
+    width: 89px;
+    height: 188%;
+   } */
+   .urbano{
+    display: none;
+   }
+   .barra_hr{
+    height: 46px;
+   }
+   .container{
+    display: none;
+   }
+   .texto_info {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.slaider-frame img{
+    width: 100px;
+    height: 100%;
+    box-shadow: 1px 1px 6px grey;
+    
+    
+}
+ }
+
   /* TABLET */
   @media (min-width:768px){
       .datos{
@@ -442,6 +481,14 @@ footer{
         position: absolute;
         transform: rotate(35deg);
     }
+    .Img_redes{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 15px;
+        cursor: pointer;
+    
+    }
   }
 
   /* DESKTOP*/
@@ -479,6 +526,14 @@ footer{
           padding-right: 5px;
           padding-top: 20px;
       }
+      .Img_redes{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 20px;
+        cursor: pointer;
+    
+    }
   }
 
     
