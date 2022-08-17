@@ -1,5 +1,10 @@
+const {loadProducts} = require('../views/products/productModule')
+
 module.exports={
     home: (req, res)=>{
-        return res.render('home')
-    }
+        const products = loadProducts();
+        return res.render('home',{
+            products
+        });
+    },
 }

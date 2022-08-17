@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
     <script src="https://kit.fontawesome.com/63f06e08bb.js" crossorigin="anonymous"></script>
     <style>
         a { text-decoration: none; 
@@ -73,10 +73,13 @@
         <div class="imagenes_zapatillas">
     <div class="flechas_2">
     </div>
-            <article><a href="/products/detalle"><div class="disponible_logo"><img class="Img" src="/img/zapatillas/zapa 1.jpg" alt=""><div class="Disponible"><p>Disponible!</p></div></div> <p class="texto_info">Adidas Astir W</p><p class="texto_info">$20.000</p></a></article>
-            <article><a href="/products/detalle2"><div class="disponible_logo"><img class="Img" src="/img/zapatillas/zapa 2.jpg" alt=""><div class="Disponible"><p>Disponible!</p></div></div> <p class="texto_info">Adidas Multix</p><p class="texto_info">$16.999</p></a></article>
-            <article><a href="/products/detalle3"><div class="disponible_logo"><img class="Img" src="/img/zapatillas/zapa 3.jpg" alt=""> <div class="Disponible"><p>Disponible!</p></div></div><p class="texto_info">Adidas Zx 1K Boost</p><p class="texto_info">$18.500</p></a></article>
-     <div class="flechas_2">
+
+<% products.forEach(({id,name,image,price}) => { %>
+    <article><a href="/products/detalle/<%= id %>"><div class="disponible_logo"><img class="Img" src="/img/zapatillas/<%= image %>" alt=""><div class="Disponible"><p>Disponible!</p></div></div> <p class="texto_info"><%= name %> </p><p class="texto_info"><%= price %></p></a></article>
+<% }) %>
+
+
+            <div class="flechas_2">
         </div>
     </div>
     </section>
