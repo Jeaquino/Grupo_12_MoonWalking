@@ -1,56 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-    <script src="https://kit.fontawesome.com/63f06e08bb.js" crossorigin="anonymous"></script>
-    <style>
-        a { text-decoration: none; 
-            color: black;} 
-        </style>
-    <title>Home</title>
-</head>
-<body>
-   
-    <header>
-        
-        <div class="barraenvios">
-            <p>Envio gratis a todo el país - Cuotas sin interés</p>
-        </div>
 
-        <div class="encabezado">
-         <div class="logo_burguer">   
-            <div class="burger">
-                <i class="fa-solid fa-bars"></i>
-                
-            </div>
-        </div>
-        <div class="container">
-            <input class="input_buscador" type="text" placeholder="Buscar">
-            <div class="btn">
-                <i class="fa fa-search"></i>
-            </div>
-        </div>
-            <div class="logo">
-            <img class="Logo" src="/design/Logo.jpg" alt="logo" height="0">
-        </div>
-        
-        
-            <div class="Buscador">
-            <form class="form_buscador" action="">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                <input type="text" placeholder="Buscador"/>               
-               </form>
-            </div>
-            <div class="carrito">
-                <a href="/carrito"><img src="/img/carrito.jpg" alt="" height="30"></a>
-                <hr class="barra_hr">
-                <a href="/login"> <img src="/img/usuario luna blanca.jpg" alt="" height="30"></a>
-            </div>
-        </div>
-    </header>
+<%- include('./partials/head', {title : 'Home'}) %>
+
+<body>
+    <%- include('./partials/header') %>
     <main>
         <section class="carrucel">
             <div class="slaider-frame">
@@ -61,7 +15,7 @@
                     <li><img class="Img" src="/img/zapatillas/zapa 4.jpg" alt="">
                     <li><img class="Img" src="/img/zapatillas/zapa 5.jpg" alt=""> 
                     <li><img class="Img" src="/img/zapatillas/zapa 6.jpg" alt="">
-                    <!-- para dektpot -->
+                    <!-- para desktop -->
                     <li><img class="Img" src="/img/urbano/zapa 1.jpg" alt="">  
                     <li><img class="Img" src="/img/urbano/zapa 2.jpg" alt="">     
                     <li><img class="Img" src="/img/urbano/zapa 3.jpg" alt="">   
@@ -132,20 +86,7 @@
     </section>
     
     </main>
-    <footer>
-        <img class="mobileimg" src="/img/fotofooter.jpg" alt="Imagen del logo">
-        <section class="datos">
-            <div class="empresa">
-                <h3>Empresa</h3>
-                <p>Somos un pequeño grupo de emprendedores, el cual queremos implementar nuestro estilo único que te
-                    hara volar hasta la luna</p>
-            </div>
-            <div class="horarios">
-                <h3>Horarios</h3>
-                <p>LUNES A VIERNES<br>
-                    De 09:00hs hasta 18:00hs <br>
-                    SÁBADOS <br>
-                    De 10:00hs a 13:00hs</p>
-    
+    <%- include('./partials/footer') %>
+
 </body>
 </html>

@@ -10,9 +10,6 @@ var productsRouter = require('./routes/products');
 
 var app = express();
 
-//app.use(express.static('public'));
-//app.listen(process.env.PORT || 3031, () => console.log('Server running in http://localhost:' + process.env.PORT || 3031))
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
