@@ -38,3 +38,22 @@
 - Que las dailys duren menos tiempo
 
 5. Dejar de hacer.
+
+
+## Cuarto sprint
+
+1. Comenzar a hacer.
+- Hacernos las 3 preguntas de las daily
+
+ 2. Hacer más.
+-Juntarnos todos los días
+-Ponernos fechas de entrega, para poder mergear las ramas con tiempo y solucionar los problemas con tiempo.
+
+3. Continuar haciendo.
+- Ver las dificultades de las tareas así podemos dividirlas mejor
+- Mantener la buena comunicación
+- Mejorar un poco la organización
+- Nadie falta a las dailys y trabajamos todos juntos en equipo.
+
+4. Hacer menos.
+5. Dejar de hacer.
