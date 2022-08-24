@@ -1,4 +1,4 @@
-const {loadProducts} = require('../views/products/productModule')
+const {loadProducts} = require('../data/productModule')
 
 module.exports={
     home: (req, res)=>{

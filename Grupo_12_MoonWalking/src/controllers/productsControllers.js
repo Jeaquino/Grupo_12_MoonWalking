@@ -1,4 +1,4 @@
-const products = require('../views/products/productModule').loadProducts()
+const products = require('../data/productModule').loadProducts()
 
 
 
