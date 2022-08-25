@@ -1,0 +1,47 @@
+[
+    {
+        "id" : 0,
+        "firstName" : "Julian",
+        "lastName" : "Aquino",
+        "Email" : "julianeduardoaquino@gmail.com",
+        "password" : "1234",
+        "category" : null,
+        "image" : "usuario luna blanca.jpg"
+    },
+    {
+        "id" : 1,
+        "firstName" : "Eric",
+        "lastName" : "Mena",
+        "Email" : "ericdanielmena@gmail.com",
+        "password" : "77878",
+        "category" : null,
+        "image" : "usuario luna blanca.jpg"
+    },
+    {
+        "id" : 2,
+        "firstName" : "Lujan",
+        "lastName" : "Gutierrez",
+        "Email" : "lujanvicgutierrez@gmail.com",
+        "password" : "8989989",
+        "category" : null,
+        "image" : "usuario luna blanca.jpg"
+    },
+    {
+        "id" : 3,
+        "firstName" : "Ramiro",
+        "lastName" : "Quiroga",
+        "Email" : "ramaquiroga@gmail.com",
+        "password" : "100009",
+        "category" : null,
+        "image" : "usuario luna blanca.jpg"
+    },
+    {
+        "id" : 4,
+        "firstName" : "Antonella",
+        "lastName" : "Pizarro",
+        "Email" : "antonella_pizarro@yahoo.com.ar",
+        "password" : "22221",
+        "category" : null,
+        "image" : "usuario luna blanca.jpg"
+    }
+]
