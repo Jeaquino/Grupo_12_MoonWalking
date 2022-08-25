@@ -8,6 +8,15 @@ module.exports = {
     carrito: (req, res)=>{
         return res.render('./products/carrito')
     },
+    edit : (req,res) => {
+        const product = products.find(product => product.id === +req.params.id)
+        return res.render('./products/productEdit',{
+            product,
+        })
+    },
+    update : (req,res) => {
+        return res.send(req.body)
+    },
     detail: (req, res)=>{
          const product = products.find(product => product.id === +req.params.id);
 
