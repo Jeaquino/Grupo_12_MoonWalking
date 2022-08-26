@@ -49,20 +49,7 @@
         "category" : "Unisex",
         "section" : "Urbano",
         "size" : "35-36-37-38-39-40-41-42",
-        "image" : "" 
-    },
-    {
-        "id" : 4, 
-        "name" : "Puma Mayze Women",
-        "brand" : "Puma",
-        "price" : "$25.299",
-        "dues" : "de $4.333",
-        "discount" : 15,
-        "description" : "Roba todas las miradas cada vez que salgas a la calle con las Zapatillas Puma Mayze Women. Este modelo está pensado para adaptarse a toda tu rutina; podes lucirlas en el trabajo, camino a la facultad y en cada salida con amigos. Combinalas como más te guste y aprovecha su versatilidad siempre. Cuentan una capellada de gamuza y el logo de Puma a lo largo de esta para darte el toque de originalidad que buscabas. Nunca fue tan fácil mejorar un look casual y darle un extra de elegancia.",
-        "category" : "Mujer",
-        "section" : "Urbano",
-        "size" : "35-36-37-38-39",
-        "image" : "" 
+        "image" : "zapa 4.jpg" 
     },
     {
         "id" : 5, 
@@ -75,7 +62,7 @@
         "category" : "Unisex",
         "section" : "Urbano",
         "size" : "35-36-37-38-39-40-41-42",
-        "image" : "" 
+        "image" : "zapa 10.jpg" 
     },
     {
         "id" : 6, 
@@ -88,7 +75,7 @@
         "category" : "Mujer",
         "section" : "Urbano",
         "size" : "35-36-37-38-39",
-        "image" : "" 
+        "image" : "zapa 11.jpg" 
     },
     {
         "id" : 7, 
@@ -101,7 +88,7 @@
         "category" : "Unisex",
         "section" : "Urbano",
         "size" : "35-36-37-38-39-40-41-42",
-        "image" : "" 
+        "image" : "zapa 6.jpg" 
     },
     {
         "id" : 8, 
@@ -114,7 +101,7 @@
         "category" : "Unisex",
         "section" : "Urbano",
         "size" : "35-36-37-38-39-40",
-        "image" : "" 
+        "image" : "zapa 8.jpg" 
     },
     {
         "id" : 9, 
@@ -127,7 +114,7 @@
         "category" : "Mujer",
         "section" : "Urbano",
         "size" : "35-36-37-38-39",
-        "image" : "" 
+        "image" : "zapa jordan.jpg" 
     },
     {
         "id" : 10, 
@@ -140,7 +127,7 @@
         "category" : "Unisex",
         "section" : "Urbano",
         "size" : "35-36-37-38-39-40-41-42",
-        "image" : "" 
+        "image" : "zapa 9.jpg" 
     },
     {
         "id" : 11, 
@@ -153,7 +140,7 @@
         "category" : "Unisex",
         "section" : "Urbano",
         "size" : "35-36-37-38-39-40-41-42",
-        "image" : "" 
+        "image" : "zapa 5.jpg" 
     },
     {
         "id" : 12, 
@@ -166,6 +153,6 @@
         "category" : "Mujer",
         "section" : "Urbano",
         "size" : "35-36-37-38-39",
-        "image" : "" 
+        "image" : "zapa 7.jpg" 
     }
 ]
