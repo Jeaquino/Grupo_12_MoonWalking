@@ -3,22 +3,38 @@
 
 <%- include('../partials/head',{ title: 'Producto' }) %>
 
-    <body>
-        <%- include('../partials/header') %>
+<body>
+    <%- include('../partials/header') %>
+    <main>
+    <!--Acá tiene que ir un if/else, el if que muestre los productos dependiendo de la keyword dada, 
+    y el else, que muestre el mensaje de "No se encontraroion productos"-->
+        <section>
+            <h4>Resultados de la búsqueda:</h4>
+            <% if (products.length> 0) { %>
+                <div>
+                    <div>
+                        <% products.forEach(({id,name,image,price})=> { %>
+                        <article class="productArticle">
+                            <a href="/products/detalle/<%= id %>">
+                                <div class="disponible_logo"><img class="Img"
+                                    src="/img/zapatillas/<%= image %>" alt=""></div>
+                                    <p class="texto_info"><%= name %></p>
+                                    <p class="texto_info"><%= price %></p>
+                            </a>
+                        </article>
+                    <div>
+                </div>
+            <% }) %>
+            <% }else{ %>
+                <div class="productBusqueda">
+                    No hay productos para la búsqueda 
+                    <span>
+                    <%= keywords %>
+                    </span>
+                </div>
+            <% } %>
 
-            <main>
-                <article>
-                    <div class="proximamente_logo"><img class="Img" src="/img/urbano/zapa 1.jpg" alt="">
-                        <div>
-                        </div>
-                    </div>
-                    <p class="texto_info">Nike Air Force 1 07 Lv8</p>
-                    <p class="texto_info">$27.999</p>
-                </article>
-                <div>No hay productos para la búsqueda</div>
-
-            </main>
-
-    </body>
-
+        </section>
+    </main>
+</body>
 </html>
