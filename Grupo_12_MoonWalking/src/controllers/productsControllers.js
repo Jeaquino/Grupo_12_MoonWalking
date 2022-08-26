@@ -1,4 +1,3 @@
-const { search } = require('../routes/products');
 const {storeProducts} = require('../data/productModule')
 const products = require('../data/productModule').loadProducts()
 
@@ -47,7 +46,7 @@ module.exports = {
     },
     search : (req,res) => {
         const result = products.filter(product => product.name.toLowerCase().includes(req.query.keywords.toLowerCase()))
-        return res.render('products',{
+        return res.render('./products/product',{
             products : result
         })
     }
