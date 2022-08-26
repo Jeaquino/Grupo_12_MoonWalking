@@ -68,7 +68,8 @@ module.exports = {
         const products = loadProducts();
         const result = products.filter(product => product.name.toLowerCase().includes(req.query.keywords.toLowerCase()))
         return res.render('./products/product',{
-            products : result
+            products : result,
+            keywords : req.query.keywords
         })
     }
  }
