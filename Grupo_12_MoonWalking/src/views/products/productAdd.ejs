@@ -9,7 +9,8 @@
 
     <%- include('../partials/header') %>
 
-    <main class="main_agregar_producto">
+    <main>
+        <section class="main_agregar_producto">
         <h1 class="h1_agregar_producto">Agregar Producto</h1>
         <section class="section_agregar_producto">
         <div class="agregar_producto1">
@@ -46,7 +47,15 @@
                     <option value="Niño/a">Niño/a</option>
                     <option value="Unisex">Unisex</option>
                 </div>
-                  </select>
+            </select>
+                  <div class="col-12 col-md-6 mb-3">
+                    <label for="section" class="form-label">Sección</label>
+                    <select class="form-select" aria-label="Default select example" id="section" name="section">
+                        <option value="" selected hidden>Seleccione...</option>
+                        <option value="popular">Deportivo</option>
+                        <option value="temporada">Urbano</option>
+                      </select>
+                </div>
             </div>
         </section>
             <div class="form__box form__box--flex ">
@@ -54,7 +63,7 @@
                 <button class="form__button form__button--send" type="submit">Guardar</button>
             </div> 
         </form>
-    
+    </section>
     </main>
     
    <%- include('../partials/footer') %>
