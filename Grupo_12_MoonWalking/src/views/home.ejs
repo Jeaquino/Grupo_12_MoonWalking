@@ -29,7 +29,7 @@
     </div>
 
 <% products.forEach(({id,name,image,price}) => { %>
-    <article><a href="/products/detalle/<%= id %>"><div class="disponible_logo"><img class="Img" src="/img/zapatillas/<%= image %>" alt=""><div class="Disponible"><p>Disponible!</p></div></div> <p class="texto_info"><%= name %> </p><p class="texto_info"><%= price %></p></a></article>
+    <article><a href="/products/detalle/<%= id %>"><div class="disponible_logo"><img class="Img" src="/img/zapatillas/<%= image %>" alt=""><div class="Disponible"><p>Disponible!</p></div></div> <p class="texto_info"><%= name %> </p><p class="texto_info">$<%= price %></p></a></article>
 <% }) %>
 
 

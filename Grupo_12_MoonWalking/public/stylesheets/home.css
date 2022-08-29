@@ -7,6 +7,26 @@
     flex-direction: row;
     background-color: var(--colorGrisOscuro);
  }
+ .fa-circle-plus:hover{
+transform: rotate(180deg) scale( 1.2);
+transition: 1s;
+ }
+ .carrito_mas:hover{
+    transform:scale( 1.1);
+transition: 1s;
+ }
+ .logo_mas:hover{
+    transform:scale( 1.1);
+transition: 1s;
+ }
+.Eliminar-producto:hover{
+    transform:scale( 1.1);
+    transition: 0.2s;
+}
+.agregaCarrito:hover{
+    transform:scale( 1.1);
+    transition: 0.2s;
+}
  .container{
     justify-content: flex-start;
     left: -37%;
@@ -104,13 +124,12 @@
 .Logo{
     height: 90px;
 }
+
 .Buscador{
     display: flex;
     align-items: center;
-    margin-right: 10%;
     display: flex;
     align-items: center;
-    margin-right: 10%;
     width: 35%;
 }
 .Buscador button{
@@ -363,6 +382,12 @@ footer{
     .Buscador{
         display: none;
     }
+    .mas_tablet_pc{
+        display: none;
+    }
+    .mas_celular:hover{
+        transform:rotate(360deg);
+    }
     .productos{
         display: none;
     }
@@ -375,14 +400,13 @@ footer{
 /* Tablet */
 @media (min-width: 768px){
    .Logo{
-    margin-left: 50%;
+    margin-left: 20%;
     height: 120px;
    }
    .carrucel_logos Img{
     width: 25%;
     height: 70%;
 }
-   
    .carrito img{
     width: 100%;
     height: 46px;
@@ -419,6 +443,10 @@ footer{
       .datos{
           line-height: 1.5;
           font-size: medium;
+      }
+      .mas_celular{
+        display: none;
+        transform: rotate(360deg);
       }
       .mobileimg{
           position: absolute;

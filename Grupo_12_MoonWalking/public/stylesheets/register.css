@@ -102,16 +102,33 @@
     border: none;  
     background-color: var(--colorGrisClaro);
 }
+.main_agregar_producto{
+    background-color: var(--colorGrisClaro);
+    width: 885px;
+    height: 250px;
+    align-items: center;
+}
+.form__button--send:hover{
+    transform: scale( 1.1);
+    transition: 0.2s;
+}
+.form__button--send{
+    background-color: var(--colorGrisOscuro);
+    border-radius: 10%;
+}
+.form__button--cancel:hover{
+    transform: scale( 1.1);
+    transition: 0.2s;
+}
 @media (max-width:1024px){
     .main_agregar_producto{
-    width: 600px;
     margin: 100px auto;
 }
 
 }
 @media (min-width:350px){
     .main_agregar_producto{
-    width: 600px;
+    
     margin: 100px auto;
     flex-wrap: wrap;
 }

@@ -6,7 +6,17 @@
     transform: translate(-3%, 15%);
     padding: 6px;
  }
- 
+ .Eliminar-producto{
+    background-color: #F08080;
+    border: none;
+    width: 100%;
+    /*eight: 35px;*/
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0px 5px 5px #888, 0px 0px 5px #888;
+    
+}
  .input_buscador{
     outline: none;
     box-sizing: border-box;
@@ -142,7 +152,6 @@
 .agregaCarrito{
     background-color: var(--colorGrisClaro);
     border: none;
-    width: 40%;
     /*eight: 35px;*/
     padding: 10px;
     align-items: center;
@@ -382,12 +391,11 @@ footer h3{
         font-size: large;
     }
     .agregaCarrito{
-        width: 20%;
-        position: absolute;
+        width: 68px;
+        /*position: absolute;*/
         right: 326px;
         top: 470px;
-        padding: 5px;
-        margin: 0px;
+        /*margin: 0px;*/
     }
     .descripcionpagoenvio {
         display: none;

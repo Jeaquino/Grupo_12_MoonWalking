@@ -16,7 +16,7 @@ module.exports = {
     update : (req,res) => {
         const products = loadProducts();
         const {id} = req.params;
-        const{name,brand,price,discount,size,category,} = req.body;
+        const{name,brand,price,discount,size,category,section} = req.body;
         const productModify = products.map(product =>{
             if (product.id === +id){
                 return {
@@ -26,13 +26,14 @@ module.exports = {
                     price : +price,
                     discount : +discount,
                     category,
+                    section,
                     size : +size
                 }
             }
             return product
         })
         storeProducts(productModify);
-        return res.redirect('./products/detalle/'+ req.params.id)
+        return res.redirect('/products/detalle/'+ req.params.id)
     },
     detail: (req, res)=>{
         const products = loadProducts();
@@ -57,11 +58,18 @@ module.exports = {
             price: +price,
             discount : +discount,
             brand : brand.trim(),
-            image : "usuario luna blanca.jpg"
+            image : "zapa 4.jpg"
         } 
         const productsNew = [...products,newProduct];
 
         storeProducts(productsNew)
+        return res.redirect('/')
+    },
+    remove : (req,res) => {
+        const products = loadProducts();
+        const productsModify = products.filter(product => product.id !== +req.params.id)
+        storeProducts(productsModify);
+
         return res.redirect('/')
     },
     search : (req,res) => {
