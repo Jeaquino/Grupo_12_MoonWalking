@@ -9,18 +9,19 @@
     <!--Acá tiene que ir un if/else, el if que muestre los productos dependiendo de la keyword dada, 
     y el else, que muestre el mensaje de "No se encontraroion productos"-->
         <section>
-            <h4>Resultados de la búsqueda:</h4>
+            <h4 class="h4_resultado">Resultados de la búsqueda:</h4>
             <% if (products.length> 0) { %>
                 <div>
-                    <div>
+                    <div class="div_padreFor">
                         <% products.forEach(({id,name,image,price})=> { %>
                         <article class="productArticle">
                             <a href="/products/detalle/<%= id %>">
-                                <div class="disponible_logo"><img class="Img"
-                                    src="/img/zapatillas/<%= image %>" alt=""></div>
-                                    <p class="texto_info"><%= name %></p>
-                                    <p class="texto_info"><%= price %></p>
-                            </a>
+                                <div class="div_img-product"><img class="img_product"
+                                    src="/img/zapatillas/<%= image %>" alt=""> </div>
+                                    <p class="texto_info-product"><%= name %></p>
+                                    <p class="texto_info-product"><%= price %></p>
+                              </a>
+                            
                         </article>
                     <div>
                 </div>
