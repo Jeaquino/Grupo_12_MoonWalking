@@ -25,17 +25,15 @@
     <section class="Deportivo">
         <h4>Deportivo</h4>
         <div class="imagenes_zapatillas">
-    <div class="flechas_2">
-    </div>
-
-<% products.forEach(({id,name,image,price}) => { %>
-    <article><a href="/products/detalle/<%= id %>"><div class="disponible_logo"><img class="Img" src="/img/zapatillas/<%= image %>" alt=""><div class="Disponible"><p>Disponible!</p></div></div> <p class="texto_info"><%= name %> </p><p class="texto_info">$<%= price %></p></a></article>
-<% }) %>
-
-
-            <div class="flechas_2">
+            <% selecction.forEach(element => { %>
+                <section>
+                <h4><%= element[0].section %></h4>
+                <%element.forEach(producto => { %>
+                    <article><a href="/products/detalle/<%= producto.id %>"><div class="disponible_logo"><img class="Img" src="/img/zapatillas/<%= producto.image %>" alt=""><div class="Disponible"><p>Disponible!</p></div></div> <p class="texto_info"><%= producto.name %> </p><p class="texto_info">$<%= producto.price %></p></a></article>
+            <%})%>
+            </section>
+            <%})%>
         </div>
-    </div>
     </section>
     <section class="carrucel_logos">
         <div class="slaider-frame">
@@ -84,7 +82,6 @@
 
 
     </section>
-    
     </main>
     <%- include('./partials/footer') %>
 

@@ -5,6 +5,7 @@ const {detail, store, add, carrito, search, update, edit,remove} = require('../c
 /* GET home page. */
 router
 .get('/detalle/:id',detail)
+.get('/allProdctsPerSection/:section',detail)
 .get ('/add',add)
 .get('/edit/:id',edit)
 .put('/update/:id',update)
